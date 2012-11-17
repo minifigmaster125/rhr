@@ -1,0 +1,8 @@
+~~This is the Log for all changes made to the code, to ensure our understanding
+ of how the code was developed is preserved for generations to come.~~
+
+--November 16, 2012--
+    Created this Log, to keep track of changes. Learned how to make branches 
+    to maintain the intergrity of the code. - SSC
+
+
