@@ -7,6 +7,7 @@ gem 'rails', '3.2.1'
 
 gem 'sqlite3'
 gem 'susy'
+gem 'thin', '~> 1.5.0'
 
 gem 'sweet'
 
