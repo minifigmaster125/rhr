@@ -1,6 +1,0 @@
-~~This is a Log to keep track of how we develop our code to aid us~~
-
---November 16, 2012--
-    Log created. Learned how to use branches to preserve code integerity. -SSC
-
-
