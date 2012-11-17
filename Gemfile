@@ -9,7 +9,6 @@ gem 'sqlite3'
 gem 'susy'
 gem 'thin', '~> 1.5.0'
 
-gem 'sweet'
 
 # Gems used only for assets and not required
 # in production environments by default.
