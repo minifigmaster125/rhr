@@ -8,6 +8,9 @@
     Added 'thin' to gemfile. Bundle installed. Created Static_Controller, with home page in view. added that to routes as 'root' and 'match'.
     Still need to look into the routes to make sure I know what I'm doing. -SSC
 
-    Checked out Gemfile, got thin. Checked home page. We have liftoff
+    Checked out Gemfile, got thin. Checked home page. We have liftoff. -JSC
 
-
+--November 18, 2012--
+    Created sample outline with html file. Also made application.css into SASS
+    and added compass import. Look under Notesf for outline image and html.
+    -JSC
