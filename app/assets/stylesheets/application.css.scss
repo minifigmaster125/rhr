@@ -12,4 +12,10 @@
  *= require_tree .
 */
 @import "compass";
-@Import "sassy-buttons";
+@import "sassy-buttons";
+@import "susy";
+
+html {
+	width: 960px;
+	background: rgba(40, 20, 50, 0.1);  
+}
