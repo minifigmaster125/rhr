@@ -1,15 +1,11 @@
-<header class = "navbar navbar-fixed-top navbar-invers">
-    <div class = "navbar-inner">
-	<div class="container">
-	    <%=link_to "Red HoloRAMS", "#", id: "logo"%>
-	    <nav>
-		<ul class = "nav pull-right">
-			<li><%= link_to "A Brief History", "#" %></li>
-			<li><%= link_to "Contact Us", "#" %></li>
-		</ul>
-	    </nav>
-	</div>
-    </div>
+<header>
+    <%=link_to "Red HoloRAMS", "#", id: "logo"%>
+    <nav>    
+	<ul class = "nav pull-right">
+	    <li><%= link_to "A Brief History", "#" %></li>
+	    <li><%= link_to "Contact Us", "#" %></li>
+	</ul>
+    </nav>
 </header>
     
 
