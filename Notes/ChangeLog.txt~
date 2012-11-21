@@ -20,13 +20,3 @@
     created the red box with box-shadow. All in application.css.scss (because
     it applies to all pages -JSC
 
---November 20, 2012--
-    Changed Gemfile: added gem 'sassy-buttons' under 'assets:', removed 'require'.
-    We are trying to make this responsive, so working in ems and percents is the way to go. 
-    Therefore, I changed the application.css.scss 'html { width' tag to be 100%, instead of 
-    '960px'. All changes made to application.css.scss. Adjusted nav links using margins, 
-    Joraaver should check on that. Also changed margins between links for lines later on. Used 
-    '@include' tag from compass for vendor prefixes, for both border-radius and for linear gradient,
-    with appropriate colors. -SSC
-
-

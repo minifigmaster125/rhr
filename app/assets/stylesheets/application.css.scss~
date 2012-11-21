@@ -14,34 +14,38 @@
 @import "compass";
 @import "sassy-buttons";
 @import "susy";
+@import "compass/reset";
 
 $total-columns: 12; // 12 columns
 $column-width: 4em; // columns are 4em wide
 $gutter-width: 1em; // with 1em gutters
 $grid-padding: 1em; // and 1em padding on the grid container
 
+
+
 .magic-container { @include container; }
 
 
 html {
-	width: 960px;
+	width: 100%;
 	background: rgba(40, 20, 50, 0.1);  
 }
 
 header {
-    float: center;
-    background: rgba(225, 50, 50, 1);
+    @include background-image(linear-gradient(#E13838, #AB0101));
     height: 100px;
     box-shadow: 0px 5px 5px #888888;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    @include border-bottom-radius(10px);
     nav{
-	
 	font-size: 100%;
         float: right;
+        margin-top: 38px; 
+        margin-right: 20px;
         ul li {
+            margin-left: 15px;    
         	list-style-type: none;
 		display: inline-block;
+        
 	}
     }
 }
