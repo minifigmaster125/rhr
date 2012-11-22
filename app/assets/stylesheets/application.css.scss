@@ -16,9 +16,9 @@
 @import "susy";
 @import "compass/reset";
 
-$total-columns: 12; // 12 columns
-$column-width: 4em; // columns are 4em wide
-$gutter-width: 1em; // with 1em gutters
+$total-columns: 2; // 2 columns
+$column-width: 8em; // columns are 4em wide
+$gutter-width: 2em; // with 1em gutters
 $grid-padding: 1em; // and 1em padding on the grid container
 
 
@@ -49,5 +49,12 @@ header {
     }
 }
 
+/*Body styling*/
+#news-header {
+	font-size: 150%;
+	font-weight: bold;
+	width: 40%;
+	border-bottom: solid 3px;
+}
 
 

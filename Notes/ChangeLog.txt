@@ -22,7 +22,7 @@
 
 --November 20, 2012--
     Changed inline-block to #include for compass mixin -JSC
---November 20, 2012--
+
     Changed Gemfile: added gem 'sassy-buttons' under 'assets:', removed 'require'.
     We are trying to make this responsive, so working in ems and percents is the way to go. 
     Therefore, I changed the application.css.scss 'html { width' tag to be 100%, instead of 
@@ -30,5 +30,9 @@
     Joraaver should check on that. Also changed margins between links for lines later on. Used 
     '@include' tag from compass for vendor prefixes, for both border-radius and for linear gradient,
     with appropriate colors. -SSC
+
+--November 22, 2012--
+	Started work on "In Recent News" section. Requires image for
+	horizontal line, but currently using bottom border.
 
 
