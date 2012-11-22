@@ -32,7 +32,12 @@
     with appropriate colors. -SSC
 
 --November 22, 2012--
+
 	Started work on "In Recent News" section. Requires image for
-	horizontal line, but currently using bottom border
+	horizontal line, but currently using bottom border. -JSC
+
+    Added sticky footer using the compass mixin. Pretty easy, took about 15 minutes, gradient, 
+    drop shadow, and all. -SSC
+
 
 
