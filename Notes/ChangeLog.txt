@@ -31,4 +31,8 @@
     '@include' tag from compass for vendor prefixes, for both border-radius and for linear gradient,
     with appropriate colors. -SSC
 
+--November 22, 2012--
+    Added sticky footer using the compass mixin. Pretty easy, took about 15 minutes, gradient, 
+    drop shadow, and all. -SSC
+
 
