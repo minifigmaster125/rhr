@@ -21,8 +21,6 @@
     it applies to all pages -JSC
 
 --November 20, 2012--
-    Changed inline-block to #include for compass mixin -JSC
---November 20, 2012--
     Changed Gemfile: added gem 'sassy-buttons' under 'assets:', removed 'require'.
     We are trying to make this responsive, so working in ems and percents is the way to go. 
     Therefore, I changed the application.css.scss 'html { width' tag to be 100%, instead of 
