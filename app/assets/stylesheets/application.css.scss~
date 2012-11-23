@@ -45,6 +45,9 @@ $grid-padding: 1em; // and 1em padding on the grid container
     font-weight: normal;
     font-style: normal;
 
+}
+	
+@font-face {
 	font-family: 'TexGyreAdventor-Bold';
     src: url('texgyreadventor-bold-webfont.eot');
     src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -54,7 +57,6 @@ $grid-padding: 1em; // and 1em padding on the grid container
     font-weight: normal;
     font-style: normal;
 }
-		
 
 .magic-container { @include container; }
 

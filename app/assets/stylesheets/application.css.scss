@@ -35,7 +35,10 @@ $grid-padding: 1em; // and 1em padding on the grid container
          url('underwood_champion-webfont.svg#underwood_championregular') format('svg');
     font-weight: normal;
     font-style: normal;
-	
+		
+}
+
+@font-face{
 	font-family: 'TexGyreAdventor-Regular';
     src: url('texgyreadventor-regular-webfont.eot');
     src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -44,8 +47,8 @@ $grid-padding: 1em; // and 1em padding on the grid container
          url('texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
 	
 @font-face {
 	font-family: 'TexGyreAdventor-Bold';
