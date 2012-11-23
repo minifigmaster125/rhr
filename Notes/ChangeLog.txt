@@ -44,10 +44,16 @@
 
 --November 23, 2012--
 
+	Stylized header navigation bar links. Added lines in-between using border-right, and setting 
+    padding on the right equal to margin for next link on the left (margin of first link should be 0).
+    Also imported 'link-colors' and 'transitions' from compass to set the nav-bar to highlight when hovered. -SSC
+
 	Finally got the fonts to work. Have to put them in a fonts
 	folder, which the url automatically looks for when you
 	specify a font. I also decreased the size of the header.
 	-JSC
+
+    
 
 
 
