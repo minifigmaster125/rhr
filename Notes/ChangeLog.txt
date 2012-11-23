@@ -42,5 +42,12 @@
 	Adjusted sticky footer with recent news stuff to fix conflicts.
 	Had to fiddle with the layout in the application.html.erb file.
 
+--November 23, 2012--
+
+	Finally got the fonts to work. Have to put them in a fonts
+	folder, which the url automatically looks for when you
+	specify a font. I also decreased the size of the header.
+	-JSC
+
 
 

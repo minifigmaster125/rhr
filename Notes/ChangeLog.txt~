@@ -39,5 +39,8 @@
     Added sticky footer using the compass mixin. Pretty easy, took about 15 minutes, gradient, 
     drop shadow, and all. -SSC
 
+	Adjusted sticky footer with recent news stuff to fix conflicts.
+	Had to fiddle with the layout in the application.html.erb file.
+
 
 
