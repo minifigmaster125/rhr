@@ -58,6 +58,8 @@
 
 	Fixed fonts for IE (one wasn't showing up due to logic issues) -JSC
 
+	Adjusted filter gradient for IE -JSC
+
     
 
 

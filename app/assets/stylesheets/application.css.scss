@@ -71,6 +71,7 @@ html {
 
 /* Header Styling */
 header {
+	@include filter-gradient(#DD3434, #AB0101);
     @include background-image(linear-gradient(#DD3434, #AB0101));
     height: 80px;
     box-shadow: 0px 5px 5px #888888;
@@ -104,6 +105,7 @@ header {
 /*Footer styling */
 
 footer {
+	@include filter-gradient(#DD3434, #AB0101);
     @include background-image(linear-gradient(#DD3434, #AB0101));
     @include border-top-radius(10px);
     box-shadow: 0px -5px 4px 0px #888888;
