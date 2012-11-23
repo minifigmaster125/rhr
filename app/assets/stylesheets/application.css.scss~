@@ -16,6 +16,8 @@
 @import "susy";
 @import "compass/reset";
 @import "compass/layout/sticky-footer";
+@import "compass/typography/links/link-colors";
+@import "compass/css3";
 
 $total-columns: 2; // 2 columns
 $column-width: 8em; // columns are 4em wide
@@ -41,16 +43,26 @@ header {
     nav{
         float: right;
         margin-top: 38px; 
-        margin-right: 20px;
+        margin-right: 20px; 
         ul li {
-	    @include inline-block;
-            margin-left: 15px;    
-	    list-style-type: none;       
+            a {
+                @include link-colors(#8E0404, #EE9696, #885959, #8E0404, #AC0202);
+                font-size: 23px;
+                text-decoration: none;
+                @include transition-property(color);
+                @include transition-duration(2s);
+            }
+            padding-right: 5px;
+            border-right: 1px solid #AE1818;
+	        @include inline-block;
+            margin-right: 0px;
+            margin-left: 5px;    
+	        //list-style-type: none;       
 	}
     }
 }
 footer {
-    @include background-image(linear-gradient(#AB0101, #DD3434));
+    @include background-image(linear-gradient(#DD3434, #AB0101));
     @include border-top-radius(10px);
     box-shadow: 0px -5px 4px 0px #888888;
 }  
@@ -60,6 +72,7 @@ footer {
 /*Body styling*/
 #news-header {
 	font-size: 150%;
+	font-weight: bold;
 	width: 40%;
 	border-bottom: solid 3px;
 }
