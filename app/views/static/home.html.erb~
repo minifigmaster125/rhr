@@ -1,14 +1,60 @@
-
+<div class = "main">
 	<div id = "content-slider">
 
 	</div>
 
-	<section>
-		<div class = "news">
-			<div id = "news-header">
-				<h1>In Recent News</h1>
-			<div>
+	<article>
+	<div class = "news">
+		<div id = "news-header">
+			<h1>In Recent News . . .</h1>
 		</div>
-	</section>
+
+		<div id = "title">
+			<p>Lorem Ipsum Dolor</p>
+		</div>
+
+		<div id = "description">
+			<p>lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor<p>
+		</div>
+
+		<div>
+	</div>
+	</article>
+</div>
+
+<sidebar>
+<div class = "secondary">
+	<div class = "years">
+		<div id = "title">
+			<p>Year</p>
+		</div>
+	</div>
+	<br /> <br />
+	<div class = "background-info">
+		<div id = "question">
+				<p>Who Are We?<p>
+		</div>
+		<div id = "statement">
+			<p>- A Robotics Team -</p>
+		</div>
+
+		<div id = "description">
+			<p>Lorem ipsum lorem ipsum
+			Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+		</div>
+	</div>
+	<br /><br />
+
+	<div class = "tools">
+		<div id = "title">
+			<p>Tools:</p>
+		</div>
+	</div>
+
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <!-- I merely put this in to check if the sticky footer is up to snuff -->
+
+</div>
+</sidebar>
+
 
 
