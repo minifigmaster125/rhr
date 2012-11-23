@@ -3,13 +3,23 @@
 
 	</div>
 
-	<section>
+	<article>
 	<div class = "news">
 		<div id = "news-header">
 			<h1>In Recent News . . .</h1>
 		</div>
+
+		<div id = "title">
+			<p>Lorem Ipsum Dolor</p>
+		</div>
+
+		<div id = "description">
+			<p>lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor<p>
+		</div>
+
+		<div>
 	</div>
-	</section>
+	</article>
 </div>
 
 <sidebar>
@@ -41,7 +51,7 @@
 		</div>
 	</div>
 
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <!-- I merely put this in to check if the sticky footer is up to snuff
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <!-- I merely put this in to check if the sticky footer is up to snuff -->
 
 </div>
 </sidebar>

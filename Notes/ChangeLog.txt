@@ -53,6 +53,9 @@
 	specify a font. I also decreased the size of the header.
 	-JSC
 
+	Now, added text fonts and heading fonts. All readable and
+	nice. -JSC
+
     
 
 
