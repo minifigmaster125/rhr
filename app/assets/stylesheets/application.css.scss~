@@ -40,19 +40,6 @@ $grid-padding: 1em; // and 1em padding on the grid container
 					"texgyreadventor-bold-webfont.svg#texgyreadventorbold"));
 			
 
-
-	
-@font-face {
-	font-family: 'TexGyreAdventor-Bold';
-    src: url('texgyreadventor-bold-webfont.eot');
-    src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('texgyreadventor-bold-webfont.woff') format('woff'),
-         url('texgyreadventor-bold-webfont.ttf') format('truetype'),
-         url('texgyreadventor-bold-webfont.svg#texgyreadventorbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .magic-container { @include container; }
 
 
@@ -68,24 +55,29 @@ header {
     height: 80px;
     box-shadow: 0px 5px 5px #888888;
     @include border-bottom-radius(10px);
+    p{
+        float: left;
+        font-size: 60px;
+        padding: 10px 0px 10px 40px;
+    }
     nav{
         float: right;
         margin-top: 38px; 
         margin-right: 20px; 
         ul li {
-	   		@include inline-block;
+
             margin-left: 15px;    
 	    	list-style-type: none;       
 	
 			a {
-                @include link-colors(#8E0404, #EE9696, #885959, #8E0404, #AC0202);
+                @include link-colors(#6B0303, #EE9696, #885959, #6B0303, #AC0202);
                 font-size: 23px;
                 text-decoration: none;
                 @include transition-property(color);
                 @include transition-duration(1s);
             }
             padding-right: 5px;
-            border-right: 1px solid #AE1818;
+            border-right: 1px solid #990505;
 	        @include inline-block;
             margin-right: 0px;
             margin-left: 5px;    
@@ -101,6 +93,23 @@ footer {
     @include background-image(linear-gradient(#DD3434, #AB0101));
     @include border-top-radius(10px);
     box-shadow: 0px -5px 4px 0px #888888;
+
+    ul {
+        padding: 0px 0px 0px 20px;
+        li{
+            padding-top: 7.5px;
+            padding-bottom: 7.5px;
+            padding-right: 10px;
+            @include inline-block;
+            img{
+                height: 45px;
+                width: 45px;
+            }
+            p{
+                font-size: 14px; 
+            }
+        }
+    }
 }  
 
 

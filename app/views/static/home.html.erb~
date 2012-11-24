@@ -17,7 +17,6 @@
 			<p>lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor<p>
 		</div>
 
-		<div>
 	</div>
 	</article>
 </div>
@@ -51,7 +50,7 @@
 		</div>
 	</div>
 
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <!-- I merely put this in to check if the sticky footer is up to snuff -->
+	<br /><br /><br /> <!-- I merely put this in to check if the sticky footer is up to snuff -->
 
 </div>
 </sidebar>
