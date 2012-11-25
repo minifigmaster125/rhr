@@ -11,7 +11,6 @@
  *= require_self
  *= require_tree .
 */
-
 @import "compass";
 @import "sassy-buttons";
 @import "susy";
@@ -41,6 +40,19 @@ $grid-padding: 1em; // and 1em padding on the grid container
 					"texgyreadventor-bold-webfont.svg#texgyreadventorbold"));
 			
 
+
+	
+@font-face {
+	font-family: 'TexGyreAdventor-Bold';
+    src: url('texgyreadventor-bold-webfont.eot');
+    src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-bold-webfont.woff') format('woff'),
+         url('texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('texgyreadventor-bold-webfont.svg#texgyreadventorbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .magic-container { @include container; }
 
 
@@ -53,35 +65,36 @@ html {
 header {
 	@include filter-gradient(#DD3434, #AB0101);
     @include background-image(linear-gradient(#DD3434, #AB0101));
+<<<<<<< HEAD
+    @include filter-gradient(#DD3434, #AB0101);
+    height: 100px;
+=======
     height: 80px;
+>>>>>>> 11c0e9fe1dc4bf4838015d5a4b127f52c12b1508
     box-shadow: 0px 5px 5px #888888;
     @include border-bottom-radius(10px);
-    p{
-        float: left;
-        font-size: 60px;
-        padding: 10px 0px 10px 40px;
-    }
     nav{
         float: right;
         margin-top: 38px; 
         margin-right: 20px; 
         ul li {
-
+	   		@include inline-block;
             margin-left: 15px;    
 	    	list-style-type: none;       
 	
 			a {
-                @include link-colors(#6B0303, #EE9696, #885959, #6B0303, #AC0202);
+                @include link-colors(#8E0404, #EE9696, #885959, #8E0404, #AC0202);
                 font-size: 23px;
                 text-decoration: none;
                 @include transition-property(color);
                 @include transition-duration(1s);
             }
             padding-right: 5px;
-            border-right: 1px solid #990505;
+            border-right: 1px solid #AE1818;
 	        @include inline-block;
             margin-right: 0px;
-            margin-left: 5px;        
+            margin-left: 5px;    
+	        //list-style-type: none;       
 		}
 
     }
@@ -93,23 +106,6 @@ footer {
     @include background-image(linear-gradient(#DD3434, #AB0101));
     @include border-top-radius(10px);
     box-shadow: 0px -5px 4px 0px #888888;
-
-    ul {
-        padding: 0px 0px 0px 20px;
-        li{
-            padding-top: 7.5px;
-            padding-bottom: 7.5px;
-            padding-right: 10px;
-            @include inline-block;
-            img{
-                height: 45px;
-                width: 45px;
-            }
-            p{
-                font-size: 14px; 
-            }
-        }
-    }
 }  
 
 
@@ -117,39 +113,20 @@ footer {
 /*Body styling*/
 
 .main {
-	
 	@include span-columns(1,2);
-	
-	#slider {
-		margin-left: 7%;
-		margin-top: 3%;
-		@include display-box;
-		height: 200px;
-  		width: 100%;
-		border: solid 4px;
-		padding-bottom: 3px;
-		overflow: hidden;
-		@include transition-duration(0.4s);
-		
-	}
-
-	#slider:hover {
-		border: solid 4px red;
-		@include transition-duration(0.4s);
-	}
-	
 	.news {
-		margin-left: 7%;
+		margin-left: 5%;
+	
 		#news-header{
 			font-family: "Underwood Champion Regular";
-			font-size: 160%;
+			font-size: 130%;
 			font-weight: bold;
 			border-bottom: solid 3px;
 		}
 
 		#title {
 			font-family: "TexGyreAdventor-Bold";
-			font-size: 130%;
+			font-size: 115%;
 			padding-top: 2%;
 			padding-bottom: 2%;
 		}
@@ -168,20 +145,20 @@ footer {
 
 		#title{
 			font-family: "Underwood Champion Regular";
-			font-size:220%;
+			font-size:170%;
 		}
 	}
 
 	.background-info{
 		#question {
 			font-family: "Underwood Champion Regular";
-			font-size: 220%;
+			font-size: 170%;
 		}
 		#statement{
 			font-family: "TexGyreAdventor-Bold";
 			padding-top: 2%;
 			padding-bottom: 2%;
-			font-size:150%;
+			font-size:125%;
 			margin-left:5%;
 		}
 		#description{
@@ -194,7 +171,7 @@ footer {
 
 		#title{
 			font-family: "Underwood Champion Regular";
-			font-size: 220%;
+			font-size: 170%;
 		}
 	}
 }

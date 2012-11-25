@@ -1,6 +1,9 @@
-<div id = 'layout'>
+
 <div id='layout_footer'></div>	
-	<footer>	
-    	<p> Yosh </P>
-		</footer>
-</div>
+    <footer>  
+        <ul>
+            <li><%= image_tag "FTCicon.jpg" %> </li>
+            <li><p> Maintained by FIRST Tech Challenge Team 4422 </p></li>
+            <li><p> Last updated on: <%= Date.current() %> </p></li>
+        </ul>
+	</footer>
