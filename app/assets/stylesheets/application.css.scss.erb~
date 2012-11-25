@@ -11,7 +11,6 @@
  *= require_self
  *= require_tree .
 */
-
 @import "compass";
 @import "sassy-buttons";
 @import "susy";
@@ -92,6 +91,88 @@ footer {
 
 
 
+/*Body styling*/
 
+.main {
+	
+	@include span-columns(1,2);
+	background-image: url(<%= asset_path 'clawOrth2.png' %>);
+	#slider {
+		margin-left: 7%;
+		margin-top: 3%;
+		@include display-box;
+		height: 200px;
+  		width: 100%;
+		border: solid 4px;
+		padding-bottom: 3px;
+		@include transition-duration(0.4s);
+		
+	}
+
+	#slider:hover {
+		border: solid 4px red;
+		@include transition-duration(0.4s);
+	}
+	
+	.news {
+		margin-left: 7%;
+		#news-header{
+			font-family: "Underwood Champion Regular";
+			font-size: 160%;
+			font-weight: bold;
+			border-bottom: solid 3px;
+		}
+
+		#title {
+			font-family: "TexGyreAdventor-Bold";
+			font-size: 130%;
+			padding-top: 2%;
+			padding-bottom: 2%;
+		}
+
+		#description {
+			font-family: "TexGyreAdventor-Regular";
+			margin-left: 11%;
+		}
+	}
+}
+
+.secondary {
+	@include span-columns(1 omega,2);
+	margin-top: 5%;
+	.years {
+
+		#title{
+			font-family: "Underwood Champion Regular";
+			font-size:220%;
+		}
+	}
+
+	.background-info{
+		#question {
+			font-family: "Underwood Champion Regular";
+			font-size: 220%;
+		}
+		#statement{
+			font-family: "TexGyreAdventor-Bold";
+			padding-top: 2%;
+			padding-bottom: 2%;
+			font-size:150%;
+			margin-left:5%;
+		}
+		#description{
+			font-family: "TexGyreAdventor-Regular";
+			margin-left:5%;
+		}
+	}
+
+	.tools {
+
+		#title{
+			font-family: "Underwood Champion Regular";
+			font-size: 220%;
+		}
+	}
+}
 
 

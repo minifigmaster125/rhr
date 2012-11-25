@@ -23,7 +23,7 @@
 		height: 200px;
   		width: 90%;
 		border: solid 4px;
-		padding-bottom: 3px;
+		//padding-bottom: 3px;
 		overflow: visible;
 		position: relative;
 		@include transition-duration(0.4s);		

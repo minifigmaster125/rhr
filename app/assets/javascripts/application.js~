@@ -15,6 +15,12 @@
 //= require_tree .
 //
 
-
+jQuery(document).ready(function($) {
+    $('#slider').bjqs({
+        'height' : 200,
+        'width' : 90%,
+        'responsive' : true
+    });
+});
 
 
