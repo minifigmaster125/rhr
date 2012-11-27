@@ -24,10 +24,18 @@
   		width: 90%;
 		border: solid 4px;
 		padding-bottom: 3px;
-		overflow: visible;
+		overflow: hidden;
 		position: relative;
-		@include transition-duration(0.4s);		
+		@include transition-duration(0.4s);	
+
+		img {
+			height:100%;
+			width: auto;
+			margin: auto;
+		}
+		
 	}
+ 
 
 	#slider:hover {
 		border: solid 4px red;
@@ -67,18 +75,6 @@
 			font-family: "Underwood Champion Regular";
 			font-size:220%;
 		}
-        #yearno1{
-            @include span-columns(1,4);
-            font-size: 150%;
-        }
-        #yearno2{
-            @include span-columns(1,4);
-            font-size: 150%;
-        }
-        #yearno3{
-            @include span-columns(1 omega,4);
-            font-size: 150%;
-        }
 	}
 
 	.background-info{

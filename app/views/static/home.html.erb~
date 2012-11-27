@@ -1,12 +1,8 @@
 <div class = "main">
 	<div id = "slider">
-			<ul>
-    			<li id = "first" class = "firstanimation">Content of box two.</li> 
-    			<li id = "second" class = "secondanimation">Content of box three.</li> 
-    			<li id = "third" class = "thirdanimation">Content of box four.</li>
-				<li id = "fourth" class = "fourthanimation">Content of box five.</li>
-				<li id = "fifth" class = "fifthanimation">Content of box five.</li>
- 			</ul>
+			<%= image_tag("rails.png") %>
+			<%= image_tag("clawOrth2.jpg") %>
+		</ul>
 	</div>
 	<br />
 
@@ -33,15 +29,6 @@
 	<div class = "years">
 		<div id = "title">
 			<p>Year</p>
-        </div>
-        <div id = "yearno1">
-            <p>2010</p>
-        </div>
-        <div id = "yearno2">
-            <p>2011</p>
-        </div>
-        <div id = "yearno2">
-            <p>2012</p>
         </div>
 	</div>
 	<br /> <br />
