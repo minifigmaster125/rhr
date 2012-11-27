@@ -1,6 +1,6 @@
 <div class = "main">
 	<div id = "slider">
-			<ul class = "bjqs">
+			<ul>
     			<li id = "first" class = "firstanimation">Content of box two.</li> 
     			<li id = "second" class = "secondanimation">Content of box three.</li> 
     			<li id = "third" class = "thirdanimation">Content of box four.</li>
@@ -57,7 +57,7 @@
 		</div>
 	</div>
 
-	<br /><br /><br /> <!-- I merely put this in to check if the sticky footer is up to snuff -->
+    <br /><br /><!-- I merely put this in to check if the sticky footer is up to snuff -->
 
 </div>
 </sidebar>
