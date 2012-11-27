@@ -14,7 +14,7 @@
 
 .main {
 	
-	@include span-columns(1,2);
+	@include span-columns(4,8);
 	
 	#slider {
 		margin-left: 7%;
@@ -23,7 +23,7 @@
 		height: 200px;
   		width: 90%;
 		border: solid 4px;
-		//padding-bottom: 3px;
+		padding-bottom: 3px;
 		overflow: visible;
 		position: relative;
 		@include transition-duration(0.4s);		
@@ -58,14 +58,27 @@
 
 
 .secondary {
-	@include span-columns(1 omega,2);
+	@include span-columns(4 omega,8);
 	margin-top: 5%;
 	.years {
-
+        height: 40px;
 		#title{
+            @include span-columns(1, 4);
 			font-family: "Underwood Champion Regular";
 			font-size:220%;
 		}
+        #yearno1{
+            @include span-columns(1,4);
+            font-size: 150%;
+        }
+        #yearno2{
+            @include span-columns(1,4);
+            font-size: 150%;
+        }
+        #yearno3{
+            @include span-columns(1 omega,4);
+            font-size: 150%;
+        }
 	}
 
 	.background-info{

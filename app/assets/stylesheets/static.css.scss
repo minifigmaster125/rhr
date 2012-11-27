@@ -14,7 +14,7 @@
 
 .main {
 	
-	@include span-columns(1,2);
+	@include span-columns(4,8);
 	
 	#slider {
 		margin-left: 7%;
@@ -58,11 +58,12 @@
 
 
 .secondary {
-	@include span-columns(1 omega,2);
+	@include span-columns(4 omega,8);
 	margin-top: 5%;
 	.years {
-
+        height: 40px;
 		#title{
+            @include span-columns(1, 4);
 			font-family: "Underwood Champion Regular";
 			font-size:220%;
 		}
