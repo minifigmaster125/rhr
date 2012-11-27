@@ -20,8 +20,8 @@
 @import "compass/typography/links/link-colors";
 @import "compass/css3";
 
-$total-columns: 2;	// 2 columns
-$column-width: 8em; // columns are 4em wide
+$total-columns: 8;	// 8 columns
+$column-width: 2em; // columns are 2em wide
 $gutter-width: 2em; // with 1em gutters
 $grid-padding: 1em; // and 1em padding on the grid container
 
@@ -41,7 +41,11 @@ $grid-padding: 1em; // and 1em padding on the grid container
 					"texgyreadventor-bold-webfont.svg#texgyreadventorbold"));
 			
 
-.magic-container { @include container; }
+.magic-container { 
+    @include container;
+    @include susy-grid-background
+}
+
 
 
 html {
@@ -98,7 +102,7 @@ footer {
         padding: 0px 0px 0px 20px;
         li{
             padding-top: 7.5px;
-            padding-bottom: 3px;
+            padding-bottom: 4px;
             padding-right: 10px;
             @include inline-block;
             img{
