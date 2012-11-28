@@ -38,10 +38,6 @@
 	}
  
 
-	.slider:hover {
-		border: solid 4px red;
-		@include transition-duration(0.4s);
-	}	
 			
 	.news {
 		margin-left: 7%;
@@ -72,36 +68,47 @@
 	.years {
         height: 70px;
 		#title{
-            @include span-columns(1, 4);
+            //@include span-columns(1, 4);
+            width: 100px;
 			font-family: "Underwood Champion Regular";
-			font-size:220%;
+			font-size:250%;
+            float: left;
 		}
-<<<<<<< HEAD
-        #gallery-wrap{
-            width: 400px;
-            overflow: hidden;
-            position: relative;
-            #gallery{
-                li{ 
-                    @include display-box;
-		            height: 200px;
-  		            width: 90%;
-		            border: solid 4px;    
-                    width: 100px;
-                    float: right;
-                    margin: 0 20px 15px 0;
-                }
-            }
-            #gallery-controls {
-                #gallery-next {}
-                #gallery-prev {}
-            }
+        #slider{
+            float:right;
+            margin: 0 35px 0 0;
+                #gallery-wrap{
+                    width: 370px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    position: relative;
+                    float: left;
+                    #gallery{
+                        position: relative; 
+                        left: 0; 
+                        top: 0;
+                        float: left;
+                        li{ 
+                            @include display-box;
+                            height: 20px;
+                            border: solid 2px;    
+                            width: 100px;
+                            float: left;
+                            margin: 10px;
+                        }
+                    }
+                 }
+                 #gallery-next {
+                     float: left;
+                     margin: 12px;
+                 }
+                 #gallery-prev {
+                     float: left;
+                     margin: 12px;
+                 }
+                        
         }
-
-        
-=======
->>>>>>> 2e9d1c5077bd687aff19b9c3b5249b8a2773870c
-	}
+    }
 
 	.background-info{
 		#question {

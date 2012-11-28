@@ -1,9 +1,9 @@
 
-
 <div class = "main">
 	<div class = "slider">
 		<%= image_tag("clawOrth2.jpg", :id => "image1") %>
 		<%= image_tag("rails.png", :id => "image2")%>
+		<%= image_tag("FTCicon.jpg", :id => "image3")%>
 	</div>
 	<br />
 
@@ -31,25 +31,22 @@
 		<div id = "title">
 			<p>Year</p>
         </div>
-<<<<<<< HEAD
-        <div id = "gallery-wrap">
-            <ul id = "gallery">
-                <li><%= link_to "2015" %></li>
-                <li><%= link_to "2014" %></li>
-                <li><%= link_to "2013" %></li>
-                <li><%= link_to "2012" %></li>
-                <li><%= link_to "2011" %></li>
-                <li><%= link_to "2010" %></li>                
-            </ul>
-        </div>
-        <div id="gallery-controls">
-            <a href="#" id="gallery-prev">previous</a>
+        <ul id = "slider">
+            <li><a href="#" id="gallery-prev">previous</a>        
+            <div id = "gallery-wrap">
+                <ul id = "gallery">
+                    <li><%= link_to "2015" %></li>
+                    <li><%= link_to "2014" %></li>
+                    <li><%= link_to "2013" %></li>
+                    <li><%= link_to "2012" %></li>
+                    <li><%= link_to "2011" %></li>
+                    <li><%= link_to "2010" %></li>                
+                </ul>
+            </div>
             <a href= "#" id="gallery-next">next</a>
-        </div>
+        </ul>
+        <br /><br /><br /> 
     </div>
-=======
-	</div>
->>>>>>> 2e9d1c5077bd687aff19b9c3b5249b8a2773870c
 	<br /> <br />
 	<div class = "background-info">
 		<div id = "question">
