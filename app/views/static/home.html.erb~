@@ -35,12 +35,12 @@
             <li><a href="#" id="gallery-prev">previous</a>        
             <div id = "gallery-wrap">
                 <ul id = "gallery">
-                    <li><%= link_to "2015" %></li>
-                    <li><%= link_to "2014" %></li>
-                    <li><%= link_to "2013" %></li>
-                    <li><%= link_to "2012" %></li>
+                    <li><%= link_to "2010" %></li>
                     <li><%= link_to "2011" %></li>
-                    <li><%= link_to "2010" %></li>                
+                    <li><%= link_to "2012" %></li>
+                    <li><%= link_to "2013" %></li>
+                    <li><%= link_to "2014" %></li>
+                    <li><%= link_to "2015" %></li>                
                 </ul>
             </div>
             <a href= "#" id="gallery-next">next</a>
