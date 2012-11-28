@@ -16,7 +16,7 @@
 	
 	@include span-columns(4,8);
 	
-	#slider {
+	.slider {
 		margin-left: 7%;
 		margin-top: 3%;
 		@include display-box;
@@ -29,15 +29,16 @@
 		@include transition-duration(0.4s);	
 
 		img {
-			height:100%;
-			width: auto;
+			width:100%;
+			height: auto;
 			margin: auto;
+			display:none;
 		}
 		
 	}
  
 
-	#slider:hover {
+	.slider:hover {
 		border: solid 4px red;
 		@include transition-duration(0.4s);
 	}	

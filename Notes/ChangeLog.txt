@@ -67,7 +67,13 @@
     
     Adjusted footer li padding is all. --SSC
    	
-	Found out how to add pictures to slider. Now working on JQuery aspect -JSC
+	Found out how to add pictures to slider. 
+	Now working on JQuery aspect -JSC
+
+--November 27, 2012--
+	
+	Found the magic--the Content Slider works (without
+	navigation, but that's good still) -JSC
 
 
 

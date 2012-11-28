@@ -4,13 +4,10 @@
   <title>Rhr</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
-  <%= javascript_include_tag "http://code.jquery.com/jquery-latest.min.js"%>
-  <%= stylesheet_link_tag "bjqs.css", :media => "all"%>
-  <%= javascript_include_tag "bjqs.min.js" %>
   <%= csrf_meta_tags %>
  
 </head>
-<body>
+<body onload="slider();">
 		
 <div id = 'layout'>
 				

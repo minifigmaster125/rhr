@@ -1,8 +1,7 @@
 <div class = "main">
-	<div id = "slider">
-			<%= image_tag("rails.png") %>
-			<%= image_tag("clawOrth2.jpg") %>
-		</ul>
+	<div class = "slider">
+		<%= image_tag("clawOrth2.jpg", :id => "image1") %>
+		<%= image_tag("rails.png", :id => "image2")%>
 	</div>
 	<br />
 
