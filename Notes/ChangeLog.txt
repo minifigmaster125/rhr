@@ -85,6 +85,8 @@
     I can see some pretty powerful applications. . . I also formatted the slider correctly. Now what's 
     left is adding pictures and replacing the "previous" and "next" buttons with arrows. --SSC
 
+	Fixed formatting issue with page and slider height. -JSC
+
 
 
 
