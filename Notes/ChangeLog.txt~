@@ -75,6 +75,9 @@
 	Found the magic--the Content Slider works (without
 	navigation, but that's good still) -JSC
 
+	Transferred stuff from JS in application.js to
+	Coffeescript in static.js.coffee. Yippeee! -JSC
+
 
 
 
