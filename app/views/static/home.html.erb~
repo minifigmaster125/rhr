@@ -1,14 +1,9 @@
 
 
 <div class = "main">
-	<div id = "slider">
-			<ul>
-    			<li id = "first" class = "firstanimation">Content of box two.</li> 
-    			<li id = "second" class = "secondanimation">Content of box three.</li> 
-    			<li id = "third" class = "thirdanimation">Content of box four.</li>
-				<li id = "fourth" class = "fourthanimation">Content of box five.</li>
-				<li id = "fifth" class = "fifthanimation">Content of box five.</li>
- 			</ul>
+	<div class = "slider">
+		<%= image_tag("clawOrth2.jpg", :id => "image1") %>
+		<%= image_tag("rails.png", :id => "image2")%>
 	</div>
 	<br />
 
@@ -36,6 +31,7 @@
 		<div id = "title">
 			<p>Year</p>
         </div>
+<<<<<<< HEAD
         <div id = "gallery-wrap">
             <ul id = "gallery">
                 <li><%= link_to "2015" %></li>
@@ -51,6 +47,9 @@
             <a href= "#" id="gallery-next">next</a>
         </div>
     </div>
+=======
+	</div>
+>>>>>>> 2e9d1c5077bd687aff19b9c3b5249b8a2773870c
 	<br /> <br />
 	<div class = "background-info">
 		<div id = "question">

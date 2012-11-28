@@ -4,11 +4,14 @@
   <title>Rhr</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+<<<<<<< HEAD
   <%= javascript_include_tag "static" %>
+=======
+>>>>>>> 2e9d1c5077bd687aff19b9c3b5249b8a2773870c
   <%= csrf_meta_tags %>
  
 </head>
-<body>
+<body onload="slider();">
 		
 <div id = 'layout'>
 				

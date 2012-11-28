@@ -16,6 +16,24 @@
 //= require_tree .
 //
 
+function slider() {
+	$(".main .slider #image1").fadeIn(2000);
+	$(".main .slider #image1").delay(3000).fadeOut(2000);
+
+	var sc = $(".main .slider img").size();
+	var count = 2;
+
+	setInterval(function(){
+		$(".main .slider #image" + count).fadeIn(2000);
+		$(".main .slider #image" + count).delay(3000).fadeOut(2000);
+		
+		if (count == sc){
+			count = 1;
+		} else {
+			count +=1;
+		}
+	},6500);
+}
 
 $(document).ready(function(){ 
     

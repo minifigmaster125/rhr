@@ -16,7 +16,7 @@
 	
 	@include span-columns(4,8);
 	
-	#slider {
+	.slider {
 		margin-left: 7%;
 		margin-top: 3%;
 		@include display-box;
@@ -24,12 +24,21 @@
   		width: 90%;
 		border: solid 4px;
 		padding-bottom: 3px;
-		overflow: visible;
+		overflow: hidden;
 		position: relative;
-		@include transition-duration(0.4s);		
-	}
+		@include transition-duration(0.4s);	
 
-	#slider:hover {
+		img {
+			width:100%;
+			height: auto;
+			margin: auto;
+			display:none;
+		}
+		
+	}
+ 
+
+	.slider:hover {
 		border: solid 4px red;
 		@include transition-duration(0.4s);
 	}	
@@ -67,6 +76,7 @@
 			font-family: "Underwood Champion Regular";
 			font-size:220%;
 		}
+<<<<<<< HEAD
         #gallery-wrap{
             width: 400px;
             overflow: hidden;
@@ -89,6 +99,8 @@
         }
 
         
+=======
+>>>>>>> 2e9d1c5077bd687aff19b9c3b5249b8a2773870c
 	}
 
 	.background-info{
