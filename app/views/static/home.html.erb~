@@ -1,3 +1,5 @@
+
+
 <div class = "main">
 	<div id = "slider">
 			<ul>
@@ -34,16 +36,21 @@
 		<div id = "title">
 			<p>Year</p>
         </div>
-        <div id = "yearno1">
-            <p>2010</p>
+        <div id = "gallery-wrap">
+            <ul id = "gallery">
+                <li><%= link_to "2015" %></li>
+                <li><%= link_to "2014" %></li>
+                <li><%= link_to "2013" %></li>
+                <li><%= link_to "2012" %></li>
+                <li><%= link_to "2011" %></li>
+                <li><%= link_to "2010" %></li>                
+            </ul>
         </div>
-        <div id = "yearno2">
-            <p>2011</p>
+        <div id="gallery-controls">
+            <a href="#" id="gallery-prev">previous</a>
+            <a href= "#" id="gallery-next">next</a>
         </div>
-        <div id = "yearno2">
-            <p>2012</p>
-        </div>
-	</div>
+    </div>
 	<br /> <br />
 	<div class = "background-info">
 		<div id = "question">

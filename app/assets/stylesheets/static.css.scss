@@ -61,12 +61,34 @@
 	@include span-columns(4 omega,8);
 	margin-top: 5%;
 	.years {
-        height: 40px;
+        height: 70px;
 		#title{
             @include span-columns(1, 4);
 			font-family: "Underwood Champion Regular";
 			font-size:220%;
 		}
+        #gallery-wrap{
+            width: 400px;
+            overflow: hidden;
+            position: relative;
+            #gallery{
+                li{ 
+                    @include display-box;
+		            height: 20px;
+  		            width: 90%;
+		            border: solid 4px;    
+                    width: 100px;
+                    float: right;
+                    margin: 0 20px 15px 0;
+                }
+            }
+            #gallery-controls {
+                #gallery-next {}
+                #gallery-prev {}
+            }
+        }
+
+        
 	}
 
 	.background-info{

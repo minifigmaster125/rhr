@@ -43,7 +43,6 @@ $grid-padding: 1em; // and 1em padding on the grid container
 
 .magic-container { 
     @include container;
-    @include susy-grid-background;
 }
 
 
