@@ -63,6 +63,12 @@ header {
         float: left;
         font-size: 60px;
         padding: 10px 0px 10px 40px;
+
+		a {
+			 @include link-colors(#6B0303, #EE9696, #885959, #6B0303, #AC0202);
+			 text-decoration: none;
+	 	}
+
     }
     nav{
         float: right;

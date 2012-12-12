@@ -87,6 +87,14 @@
 
 	Fixed formatting issue with page and slider height. -JSC
 
+--December 12, 2012--
+
+	Created mockup for brief history and contact. Well, technically, it
+	includes all the page in an html format.
+	Added home tab
+	Made home tab and main "Red HoloRAMS" text link to root_path. Actual only
+	function piece of code! -JSC
+
 
 
 
