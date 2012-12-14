@@ -1,7 +1,9 @@
 Rhr::Application.routes.draw do
 
-    root :to => "static#home"
-    match '/home' => 'static#home'
+  match '/brief_history' => 'static#brief_history'
+
+  root :to => "static#home"
+  match '/home' => 'static#home'
         
   # The priority is based upon order of creation:
   # first created -> highest priority.

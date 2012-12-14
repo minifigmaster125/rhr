@@ -5,8 +5,9 @@
 $(document).ready ->
 
     do slider
+    do history
 
-    #Gallery    
+   	#Gallery    
     if jQuery("#gallery").length
             
             #Declare Variables
@@ -25,7 +26,34 @@ $(document).ready ->
                 jQuery("#gallery").animate left: "-=" + imageWidth + "px" if jQuery("#gallery").position().left > stopPosition and not jQuery("#gallery").is(":animated")
                 false
 
+#History	
+history = ->
 
+    count = 1
+    years = 3
+    if count is 1
+        $(".secondary #changeYear #prev").hide("drop")
+    $(".secondary #changeYear #next").click ->
+	
+        if count < years
+            count++
+            $(".secondary #changeYear #prev").show("drop")
+            $(".secondary #year" + --count).slideUp()
+            $(".secondary #year" + ++count).delay(1000).slideDown()
+        if count is years
+            $(".secondary #changeYear #next").hide("drop")
+
+    $(".secondary #changeYear #prev").click ->
+		        
+        if count > 1
+            count--
+            $(".secondary #changeYear #next").show("drop")
+            $(".secondary #year" + ++count).slideUp()
+            $(".secondary #year" + --count).delay(1000).slideDown()
+        if count is 1
+            $(".secondary #changeYear #prev").hide("drop")
+    
+	
 
 slider = ->
 	$(".main .slider #image1").fadeIn 2000
@@ -43,4 +71,6 @@ slider = ->
 		else
 			count +=1;
 		
-	), 6500 
+	), 6500
+
+

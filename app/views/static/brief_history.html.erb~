@@ -1,0 +1,45 @@
+
+<div class = "main">
+	<div class = "margin_needed">
+		<br />
+		<br />
+		<div id = "quote">"Study the past if you would define the future"</div>
+		<br />
+		<div id = "sayer">--Confucius</div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<p>Innovation is the name of the game in FTC. But every time we begin the new season, we look at our past, and see how far we've come, as well as how far we have yet to go.
+		<br />
+		<br />
+		<br />
+		So let's take a brief look at our past . . .</p>
+	</div>
+</div>
+
+<div class = "secondary">
+	<div id = "years">
+		<div id = "year1">
+			<p id = "number">2010-2011</p>
+			<br /> <br />
+			<p id = "text">This was our first year in FTC, and the season's game happened to be "Get Over IT." We had the ever-so-simple three wheel robot running our first tournament, and we were able to score a baton! We ordered more parts, learned more about the competition, and eventually, went to the regionals. That's where we ended our season, but we learned a lot. And, of course, we expected no less of next year's season.</p>
+		</div>
+		<div id = "year2">
+			<p id = "number">2011-2012</p>
+			<br /> <br />
+			<p id = "text"> "Bowled Over" is the name of the game for our second season. As a "veteran" team, we knew what we had to do right off the bat. Our autonomous was sketchy (it worked occasionally) and we didn't have the pieces for a scissor lift the way other teams did. So, we went solely after magnetic balls. This, and because we pushed the bowling ball on the top of the ramp in endgame, helped us make it into the regionals, matching last year's record. Unfortunately, we finished as the 3rd place alliance team. It was a good run, and we definitely had fun using an unconventional strategy</p>
+		</div>
+		<div id = "year3">
+			<p id = "number">2012-2013</p>
+			<br /> <br />
+			<p id = "text">Third year running, and now, the team consists of four veterans (six, if you count our two mentors). The new guys have had to learn the ropes quite fast, but they kept up very well, and by the second qualifier, we were able to secure a spot in the regionals. We are currently working on designs for a faster, stronger robot that can keep up with teams like NOVA. Another aspect we plan to nail is the autonomous. Expect to see a work of art in the regionals! <br /> Further updates as events warrant...</p>
+		</div>
+		<br /> <br />
+		<div id = "changeYear">
+			<p id = "prev">Previous Year</p>
+			<p id = "next">Next Year</p>
+		</div>
+	</div>
+</div>

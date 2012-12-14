@@ -15,7 +15,7 @@
 .main {
 	
 	@include span-columns(4,8);
-	
+	/* home page */	
 	.slider {
 		margin-left: 7%;
 		margin-top: 3%;
@@ -58,6 +58,30 @@
 			margin-left: 11%;
 		}
 	}
+	
+	/*Brief History*/
+
+	.margin_needed{
+	
+		margin-left: 7%;
+
+		#quote{
+			font-size: 150%;
+			font-family: "TexGyreAdventor-Bold";
+			font-style: italic;
+		}
+
+		#sayer {
+			font-size: 110%;
+			font-family: "TexGyreAdventor-Regular";
+			margin-left:60%;
+		}
+
+		p {
+			font-size: 130%;
+			font-family: "TexGyreAdventor-Regular";;
+		}
+	}
 }
 
 
@@ -65,6 +89,7 @@
 .secondary {
 	@include span-columns(4 omega,8);
 	margin-top: 2%;
+	/*Home*/
 	.years {
         height: 70px;
 		#title{
@@ -142,4 +167,48 @@
 			font-size: 220%;
 		}
 	}
+	/*Brief History*/
+	#years {
+		text-align: center;
+		margin-right: 5%;
+		#number {
+			font-family: "Underwood Champion Regular";
+			font-size: 170%;
+		}
+
+		#text {
+			font-family:  "TexGyreAdventor-Regular";
+			font-size: 110%;
+			border: solid 2px red;
+			padding: 3%;
+			@include border-radius(20px);
+		}
+		
+	}
+	#year1 {
+	}
+	#year2 {
+		display: none;
+	}
+	#year3 {
+		display: none;
+	}
+	#changeYear{
+
+		p{
+			cursor: pointer;
+			font-family: "Underwood Champion Regular";
+			font-size: 130%;
+		}
+		#next {
+			@include inline-block;
+			margin-left: 5%;
+		}
+		#prev {
+			margin-right: 5%;
+			@include inline-block;
+			
+		}	
+	}
+
 }
