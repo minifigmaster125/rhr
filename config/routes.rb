@@ -1,6 +1,8 @@
 Rhr::Application.routes.draw do
 
+
   match '/brief_history' => 'static#brief_history'
+  match '/contact' => 'contacts#new'
 
   root :to => "static#home"
   match '/home' => 'static#home'

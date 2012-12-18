@@ -7,6 +7,20 @@ $(document).ready ->
     do slider
     do history
 
+    #Button change for history slider
+    $(".secondary #changeYear #prev").mouseover ->
+        $(".secondary #changeYear p").css "background-color","red"
+        $(".secondary #changeYear p").css "color","white"
+    $(".secondary #changeYear #next").mouseover ->
+        $(".secondary #changeYear p").css "background-color","red"
+        $(".secondary #changeYear p").css "color","white"
+    $(".secondary #changeYear #prev").mouseout ->
+        $(".secondary #changeYear p").css "background-color","#ffcccc"
+        $(".secondary #changeYear p").css "color","black"
+    $(".secondary #changeYear #next").mouseout ->
+        $(".secondary #changeYear p").css "background-color","#ffcccc"
+        $(".secondary #changeYear p").css "color","black"
+
    	#Gallery    
     if jQuery("#gallery").length
             
@@ -26,12 +40,12 @@ $(document).ready ->
                 jQuery("#gallery").animate left: "-=" + imageWidth + "px" if jQuery("#gallery").position().left > stopPosition and not jQuery("#gallery").is(":animated")
                 false
 
-#History	
+#History slider
 history = ->
 
     count = 1
     years = 3
-    if cout is 1
+    if count is 1
         $(".secondary #changeYear #prev").hide("drop")
     $(".secondary #changeYear #next").click ->
 	
@@ -52,8 +66,9 @@ history = ->
             $(".secondary #year" + --count).delay(1000).slideDown()
         if count is 1
             $(".secondary #changeYear #prev").hide("drop")
-    
-	
+
+
+
 
 slider = ->
 	$(".main .slider #image1").fadeIn 2000

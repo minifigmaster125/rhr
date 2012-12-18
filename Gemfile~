@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails', '3.2.7rc'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -23,7 +23,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-require 'sassy-buttons'
 
 gem 'jquery-rails'
 

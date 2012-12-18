@@ -101,4 +101,9 @@
 	needed (which should be the case, looking a little bland)
 	- JSC
 
+--December 18, 2012--
+
+	Broke with heroku toolbelt. Fixed now. Edited slider
+	button so it is more telltale. -JSC
+
 
