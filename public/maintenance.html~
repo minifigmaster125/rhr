@@ -1,3 +1,12 @@
+<style>
+	.maintenance p{
+			font-size: 200%;
+	}
+
+</style>
+
+
+
 <div class = "maintenance">
 	<p>	FTC Team 4422's website </p>
 	<br />
