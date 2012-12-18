@@ -1,0 +1,51 @@
+// Place all the styles related to the Contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "compass";
+@import "sassy-buttons";
+@import "susy";
+@import "compass/reset";
+@import "compass/layout/sticky-footer";
+@import "compass/typography/links/link-colors";
+@import "compass/css3";
+
+.main {
+	@include span-columns(4,8);
+	
+	
+	.contact {
+		margin-top: 25px;
+		margin-left: 5%;
+		h1 {
+			font-size: 250%;
+			font-family: "Underwood Champion Regular";
+			font: bold;
+		}
+		p {
+			font-family:"TexGyreAdventor-Regular";
+			font-size: 120%;
+		}
+	}
+}
+
+.secondary {
+	@include span-columns(4 omega,8);
+	.contact_fields {
+		li {
+			input {
+				padding: 4px;
+				font-size: 120%;
+				@include border-radius(8px);
+			}
+			input :focus {
+				background-color: red;
+			}
+			textarea {
+				padding: 4px;
+				font-size: 120%;
+				@include border-radius(8px);
+			}
+		}
+	}
+}
+

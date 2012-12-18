@@ -106,4 +106,7 @@
     Years Controller created, working on years#show page (pretty good). Problem
     with sprites, look into that later. Decided on other models--Post, Contact, 
     Year, Member. --SSC
+	Broke with heroku toolbelt. Fixed now (Delete ruby 1.9.2 paths in environment variables). Edited slider
+	button so it is more telltale. -JSC
+
 

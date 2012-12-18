@@ -40,6 +40,7 @@
 
 			
 	.news {
+		margin-top: 10px;
 		margin-left: 7%;
 		#news-header{
 			font-family: "Underwood Champion Regular";
@@ -79,7 +80,7 @@
 
 		p {
 			font-size: 130%;
-			font-family: "TexGyreAdventor-Regular";;
+			font-family: "TexGyreAdventor-Regular";
 		}
 	}
 }
@@ -121,6 +122,7 @@
                             width: 60px;
                             float: left;
                             margin: 10px 10px 20px 10px;
+							font-family: "TexGyreAdventor-Regular";
                             p { 
                                 margin-top: 65px;
                                 margin-left: 12px;
@@ -195,12 +197,18 @@
 		display: none;
 	}
 	#changeYear{
-
+		margin-bottom: 5%;
+		
 		p{
 			cursor: pointer;
 			font-family: "Underwood Champion Regular";
 			font-size: 130%;
+			border: solid 1px red;
+			padding: 5px;
+			@include border-radius(12px);
+			background-color: #ffcccc;
 		}
+
 		#next {
 			@include inline-block;
 			margin-left: 5%;

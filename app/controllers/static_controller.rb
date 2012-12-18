@@ -5,4 +5,6 @@ class StaticController < ApplicationController
 
   def brief_history
   end
+
+
 end
