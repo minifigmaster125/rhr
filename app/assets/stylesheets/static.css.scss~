@@ -159,7 +159,8 @@
 			margin-left:5%;
 		}
 	}
-
+    @import "icons/*.png";
+    @include all-icons-sprites;
 	.tools {
 
 		#title{
@@ -202,9 +203,10 @@
 		}
 		#next {
 			@include inline-block;
-			margin-left: 10%;
+			margin-left: 5%;
 		}
 		#prev {
+			margin-right: 5%;
 			@include inline-block;
 			
 		}	

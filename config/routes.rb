@@ -1,7 +1,7 @@
 Rhr::Application.routes.draw do
 
   match '/brief_history' => 'static#brief_history'
-
+  resources :years
   root :to => "static#home"
   match '/home' => 'static#home'
         

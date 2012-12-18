@@ -101,4 +101,9 @@
 	needed (which should be the case, looking a little bland)
 	- JSC
 
+--December 18, 2012--
+    
+    Years Controller created, working on years#show page (pretty good). Problem
+    with sprites, look into that later. Decided on other models--Post, Contact, 
+    Year, Member. --SSC
 
