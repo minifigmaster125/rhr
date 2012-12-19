@@ -1,0 +1,24 @@
+<div id = "awards">
+    <p class = "ATitle">  Awards </p>   
+    <ul class = "info">
+        <li> Think </li>
+        <li> Connect </li>
+        <li> Finalist Alliance Captain </li>
+        <li> First Place Alliance Captain </li>
+    </ul>
+</div>
+<section id = "main">
+    <p id = "YTitle"> 2012-2013 </p>
+</section>
+<div id = "members">
+    <p class = "ATitle">  Members </p>   
+    <ul class = "info">
+        <li> Think </li>
+        <li> Connect </li>
+        <li> Finalist Alliance Captain </li>
+        <li> First Place Alliance Captain </li>
+    </ul>
+</div>
+<div id = "robinfo">
+    <p id = "RTitle"> The Robot: </p>
+</div>

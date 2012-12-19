@@ -1,0 +1,66 @@
+// Place all the styles related to the years controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "compass";
+@import "sassy-buttons";
+@import "susy";
+@import "compass/reset";
+
+#awards{
+    @include span-columns(2,8);
+    margin-right: 0;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.ATitle {
+    text-align: center;
+    font-family: "Underwood Champion Regular";
+	font-size: 160%;
+	font-weight: bold;
+    border-bottom: solid 3px;
+}   
+.info{
+    text-align: center;
+}
+#main{
+    @include span-columns(2,8);
+    @include prefix(1);
+    @include suffix(1);
+    margin: 10px 0 0 0 ;
+    #YTitle{
+        text-align: center;
+        font-family: "Underwood Champion Regular";
+	    font-size: 300%;
+	    font-weight: bold;
+    }
+    figure {
+        @include display-box;
+        height: 270px;
+        margin-top: 10px;
+        border: solid 2px;    
+        width: 100%;
+        figcaption{}
+    }
+}    
+#members{
+    @include span-columns(2 omega,8);
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: 20px;
+}
+#robinfo{
+    clear: both;
+    margin-top: 40px;
+    width:100%;
+    float: left;
+    border-top: solid 2px;
+    #RTitle{
+        margin: 10px;
+        float:left;
+        text-align: center;
+        font-family: "Underwood Champion Regular";
+	    font-size: 200%;
+	    font-weight: bold;
+    }
+}

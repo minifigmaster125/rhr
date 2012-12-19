@@ -63,7 +63,10 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.19)
     multi_json (1.5.0)
+<<<<<<< HEAD
+=======
     pg (0.13.1-x86-mingw32)
+>>>>>>> 9d892a3ec61ec8474db4d7a3190fdcfc179c8b0e
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
