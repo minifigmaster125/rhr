@@ -1,6 +1,8 @@
-<%= form_for @year, url: {action: "create"} do |f| %>
-  <%= f.text_field :yearno %>
-  <%= f.text_area :robinfo, :size => "24x6" %>
-  <%= f.submit "Create" %>
-<% end %>
+<ul>
+    <%= form_for @year, url: {action: "create"} do |f| %>
+        <li><%= f.text_field :yearno %></li>
+        <li><%= f.text_area :robinfo, :size => "24x6" %></li>
+        <li><%= f.submit "Create" %></li>
+    <% end %>
+</ul>
 
