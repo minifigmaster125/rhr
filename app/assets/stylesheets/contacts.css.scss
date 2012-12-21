@@ -8,7 +8,7 @@
 @import "compass/layout/sticky-footer";
 @import "compass/typography/links/link-colors";
 @import "compass/css3";
-
+@import "sassy-buttons";
 .main {
 	@include span-columns(4,8);
 	
@@ -32,19 +32,21 @@
 	@include span-columns(4 omega,8);
 	.contact_fields {
 		li {
-			input {
+			#contactField{
 				padding: 4px;
 				font-size: 120%;
 				@include border-radius(8px);
 			}
-			input :focus {
-				background-color: black;
+			#contactField:focus{
+				background-color: #ffeedd;
+				font: bold;
 			}
-			textarea {
-				padding: 4px;
-				font-size: 120%;
-				@include border-radius(8px);
+			#submitButton{
+				@include sassy-button("shiny", 15px, 26px, #ffd71a, #ffbb66, black);
+				margin-left: 100px;
 			}
+
+
 		}
 	}
 }

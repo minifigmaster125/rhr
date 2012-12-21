@@ -4,7 +4,7 @@
 			<ul>
 				<li><%= link_to "Home", root_path %></li>
 				<li><%= link_to "A Brief History", brief_history_path %></li>
-				<li><%= link_to "Contact Us", "#" %></li>
+				<li><%= link_to "Contact Us", contact_new_path %></li>
 			</ul>
 		</nav>
 		

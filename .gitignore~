@@ -32,4 +32,3 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 >>>>>>> 0037efa0904c787a8b570b324e43fcfebcbaa74c
-config/database.yml

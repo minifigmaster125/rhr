@@ -52,6 +52,15 @@ html {
 	background: rgba(40, 20, 50, 0.1);  
 }
 
+.flash {
+	width: 30%;
+	font-size: 130%;
+	font-family:"TexGyreAdventor-Bold";
+	background-color: #F9FF8C;
+	margin-top: 5px;
+	padding: 3px;
+	@include border-radius(10px);
+}
 /* Header Styling */
 header {
 	@include filter-gradient(#DD3434, #AB0101);
@@ -67,7 +76,7 @@ header {
 		a {
 			 @include link-colors(#6B0303, #EE9696, #885959, #6B0303, #AC0202);
 			 text-decoration: none;
-	 }
+	 	}
 
     }
     nav{
