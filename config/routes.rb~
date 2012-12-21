@@ -2,13 +2,9 @@ Rhr::Application.routes.draw do
 
 
   match '/brief_history' => 'static#brief_history'
-<<<<<<< HEAD
   resources :years
-=======
   match '/contact' => 'contacts#new'
   match '/maintenance' => 'public#maintenance'
-
->>>>>>> 9d892a3ec61ec8474db4d7a3190fdcfc179c8b0e
   root :to => "static#home"
   match '/home' => 'static#home'
         

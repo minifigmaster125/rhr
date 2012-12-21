@@ -5,7 +5,12 @@ gem 'rails', '3.2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+<<<<<<< HEAD
+#gem 'sqlite3' #Take this out when push to heroku (or when beginning to work with postgres db)
+=======
+
 gem 'sqlite3' #Take this out when push to heroku (or when beginning to work with postgres db)
+>>>>>>> 88603f8791e18205642c7dc59367a0b129ac9b04
 gem 'susy'
 gem 'thin', '~> 1.5.0'
 gem 'pg'

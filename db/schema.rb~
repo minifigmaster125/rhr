@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20121221055747) do
+=======
+ActiveRecord::Schema.define(:version => 20121219224924) do
+>>>>>>> 88603f8791e18205642c7dc59367a0b129ac9b04
 
   create_table "contacts", :force => true do |t|
     t.string   "name"
@@ -21,10 +25,14 @@ ActiveRecord::Schema.define(:version => 20121221055747) do
     t.datetime "updated_at", :null => false
   end
 
+<<<<<<< HEAD
   create_table "years", :force => true do |t|
     t.integer  "yearno"
     t.text     "robinfo"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+=======
+>>>>>>> 88603f8791e18205642c7dc59367a0b129ac9b04
 end

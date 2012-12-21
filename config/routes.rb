@@ -1,13 +1,13 @@
 Rhr::Application.routes.draw do
-
-
-  match '/brief_history' => 'static#brief_history'
   resources :years
+  resources :contacts
+
+  match '/brief_history' => 'static#brief_history' 
   match '/contact' => 'contacts#new'
   match '/maintenance' => 'public#maintenance'
-  root :to => "static#home"
   match '/home' => 'static#home'
         
+  root :to => "static#home"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
