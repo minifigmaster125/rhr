@@ -35,7 +35,7 @@
             <li><a href="#" id="gallery-prev">previous</a>        
             <div id = "gallery-wrap">
                 <ul id = "gallery">
-                    <li><%= link_to "" %><p> 2010</p></li>
+                    <li><%= link_to years_show_path %><p> 2010</p></li>
                     <li><%= link_to "" %><p> 2011</p></li>
                     <li><%= link_to "" %><p> 2012</p></li>
                     <li><%= link_to "" %><p> 2013</p></li>
@@ -67,7 +67,7 @@
 			<p>Tools:</p>
         </div>
         <ul id = "spriting" class = "horizontal">
-            <li><%= link_to "www.blender.org", class: "icons-blender" %></li>
+            <li><%= link_to "www.blender.org" %></li>
             <li><%#= link_to "www.robotc.org", class: "icons-robotc" %></li>
             <li><%#= link_to "www.blender.org", class: "icons-sketchup" %></li>
             <li><%#= link_to "www.github.com", class: "icons-github" %></li>

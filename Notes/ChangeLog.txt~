@@ -102,7 +102,6 @@
 	- JSC
 
 --December 18, 2012--
-<<<<<<< HEAD
     
     Years Controller created, working on years#show page (pretty good). Problem
     with sprites, look into that later. Decided on other models--Post, Contact, 
