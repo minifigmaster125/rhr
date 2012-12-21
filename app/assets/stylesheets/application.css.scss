@@ -53,12 +53,12 @@ html {
 }
 
 .flash {
-	width: 30%;
+	width: 20%;
 	font-size: 130%;
 	font-family:"TexGyreAdventor-Bold";
 	background-color: #F9FF8C;
 	margin-top: 5px;
-	padding: 5px;
+	padding: 15px;
 	@include border-radius(10px);
 }
 /* Header Styling */
@@ -72,6 +72,8 @@ header {
         float: left;
         font-size: 60px;
         padding: 10px 0px 10px 40px;
+		font-family: "Underwood Champion Regular";
+
 
 		a {
 			 @include link-colors(#6B0303, #EE9696, #885959, #6B0303, #AC0202);
@@ -79,14 +81,23 @@ header {
 	 	}
 
     }
+	#number {
+		font-size: 30px;
+		font-family: "TexGyreAdventor-Regular";
+		margin-left: 10%;
+		margin-top: 10px;
+	}
     nav{
         float: right;
         margin-top: 38px; 
         margin-right: 20px; 
+		
         ul li {
 
             margin-left: 15px;    
 	    	list-style-type: none;       
+			font-family:"TexGyreAdventor-Regular";
+			
 	
 			a {
                 @include link-colors(#6B0303, #EE9696, #885959, #6B0303, #AC0202);
@@ -99,7 +110,8 @@ header {
             border-right: 1px solid #990505;
 	        @include inline-block;
             margin-right: 0px;
-            margin-left: 5px;        
+            margin-left: 5px;
+	   			
 		}
 
     }

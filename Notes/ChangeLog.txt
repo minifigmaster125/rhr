@@ -112,6 +112,9 @@
 --December 20, 2012-- 
     
     Years#show page updated, added temporary images to trophy list, added filler text to "The Robot,"
-    and made pictures and contents slider. No dynamics yet. Looks pretty neat. 
+    and made pictures and contents slider. No dynamics yet. Looks pretty neat.
+	--SSC
 
-
+	FTC number is in header now. Contact page looks awesome. Validations
+	database, success message, all good. Error message still in progress
+	though. -JSC
