@@ -1,14 +1,20 @@
 <div id = "awards">
     <p class = "ATitle">  Awards </p>   
     <ul class = "info">
-        <li> Think </li>
-        <li> Connect </li>
-        <li> Finalist Alliance Captain </li>
-        <li> First Place Alliance Captain </li>
+        <li><div class="trophies"> <%= image_tag("icons/robotc.jpg") %> </div><p class="name">Think</p>  </li>
+        <li><div class="trophies"> <%= image_tag("robotc.jpg") %>  </div><p class="name">Think</p>  </li>
+        <li><div class="trophies"> <%= image_tag("robotc.jpg") %>  </div><p class="name">Think</p>  </li>
+        <li><div class="trophies"> <%= image_tag("robotc.jpg") %>  </div><p class="name">Think</p>  </li>
     </ul>
 </div>
 <section id = "main">
     <p id = "YTitle"> 2012-2013 </p>
+    <figure>
+        <%= image_tag("LoadingUnloadingProcess.png", :id => "image1") %>
+		<%= image_tag("rails.png", :id => "image2")%>
+		<%= image_tag("FTCicon.jpg", :id => "image3")%>
+        <!--figcaption> Rammy H. Ramster </figcaption-->
+    </figure>
 </section>
 <div id = "members">
     <p class = "ATitle">  Members </p>   
@@ -21,4 +27,13 @@
 </div>
 <div id = "robinfo">
     <p id = "RTitle"> The Robot: </p>
+    <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie imperdiet quam, eget pulvinar odio vulputate vel. Curabitur neque metus, scelerisque ut egestas vitae, dignissim sit amet justo. Vestibulum tincidunt blandit metus nec lacinia. Morbi in lorem et est consequat dictum. Cras ornare sagittis consectetur. Maecenas neque purus, scelerisque ut malesuada id, porta eu ipsum. Nam vitae tortor vel quam pellentesque eleifend eu non felis. Ut laoreet imperdiet est in cursus. Donec cursus, metus ut volutpat cursus, lacus elit scelerisque est, eu porttitor mi ipsum tincidunt orci. Praesent vulputate, metus vel mattis rutrum, erat nunc pretium est, quis placerat leo arcu ut erat. Ut eget nibh in felis venenatis accumsan ut at arcu. Proin est nulla, aliquam at volutpat eu, fermentum eu libero. Phasellus in pellentesque enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+In sit amet arcu nec libero interdum tristique. Quisque mauris dui, suscipit non mattis et, malesuada id erat. Nulla facilisis rhoncus sem eu semper. Sed orci justo, ultricies vitae venenatis et, sodales id sapien. Vestibulum tempus dolor vel dolor aliquam dictum. Integer ut quam enim. Fusce risus erat, lobortis non commodo a, porttitor eget ipsum. Suspendisse placerat sem vitae diam tempus facilisis. Sed nec dui massa. Proin ac eros a ligula feugiat placerat. Fusce ac sem mauris, a tincidunt nunc. Cras viverra commodo enim et feugiat.
+
+Aliquam id felis ante. Phasellus vulputate dapibus sem nec gravida. Etiam sodales dapibus feugiat. Nullam consequat tellus ac velit dignissim quis rutrum ipsum elementum. Integer accumsan, erat nec interdum egestas, mi justo rutrum mauris, vel porttitor orci lacus in mi. In posuere mauris vel ante luctus at vestibulum dolor pretium. Curabitur a mi nec tortor placerat imperdiet non quis lorem. Donec vehicula malesuada quam. Nullam tincidunt accumsan ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+Phasellus nec dolor sit amet justo bibendum aliquam. Nunc posuere fringilla urna mattis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent feugiat lectus nec enim auctor eget auctor arcu euismod. Cras lacus lectus, tristique et vehicula at, vestibulum eget nunc. Aliquam vitae nunc neque, in vehicula purus. Sed pellentesque pretium pretium. Nullam a magna convallis dolor gravida dignissim id vel augue. Maecenas non luctus diam. Sed hendrerit aliquam iaculis. Vestibulum feugiat cursus nulla, in sollicitudin ante ornare a.
+    </p>  
 </div>

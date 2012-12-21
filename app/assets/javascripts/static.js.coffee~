@@ -9,17 +9,17 @@ $(document).ready ->
 
     #Button change for history slider
     $(".secondary #changeYear #prev").mouseover ->
-        $(".secondary #changeYear p").css "background-color","red"
-        $(".secondary #changeYear p").css "color","white"
+        $(".secondary #changeYear #prev").css "background-color","red"
+        $(".secondary #changeYear #prev").css "color","white"
     $(".secondary #changeYear #next").mouseover ->
-        $(".secondary #changeYear p").css "background-color","red"
-        $(".secondary #changeYear p").css "color","white"
+        $(".secondary #changeYear #next").css "background-color","red"
+        $(".secondary #changeYear #next").css "color","white"
     $(".secondary #changeYear #prev").mouseout ->
-        $(".secondary #changeYear p").css "background-color","#ffcccc"
-        $(".secondary #changeYear p").css "color","black"
+        $(".secondary #changeYear #prev").css "background-color","#ffcccc"
+        $(".secondary #changeYear #prev").css "color","black"
     $(".secondary #changeYear #next").mouseout ->
-        $(".secondary #changeYear p").css "background-color","#ffcccc"
-        $(".secondary #changeYear p").css "color","black"
+        $(".secondary #changeYear #next").css "background-color","#ffcccc"
+        $(".secondary #changeYear #next").css "color","black"
 
    	#Gallery    
     if jQuery("#gallery").length

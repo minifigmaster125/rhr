@@ -109,4 +109,9 @@
 	Broke with heroku toolbelt. Fixed now (Delete ruby 1.9.2 paths in environment variables). Edited slider
 	button so it is more telltale. -JSC
 
+--December 20, 2012-- 
+    
+    Years#show page updated, added temporary images to trophy list, added filler text to "The Robot,"
+    and made pictures and contents slider. No dynamics yet. Looks pretty neat. 
+
 

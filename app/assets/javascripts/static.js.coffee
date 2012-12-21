@@ -69,7 +69,7 @@ history = ->
 
 
 
-
+#Image Slider
 slider = ->
 	$(".main .slider #image1").fadeIn 2000
 	$(".main .slider #image1").delay(3000).fadeOut 2000
