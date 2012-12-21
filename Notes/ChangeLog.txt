@@ -112,6 +112,10 @@
 --December 20, 2012-- 
     
     Years#show page updated, added temporary images to trophy list, added filler text to "The Robot,"
-    and made pictures and contents slider. No dynamics yet. Looks pretty neat. 
+    and made pictures and contents slider. No dynamics yet. Looks pretty neat. --SSC
+    Added Years model with a temp year#new metadata page, and setup psql db connection to Joraaver's
+    so that back end could move along more steadily. All is ship shape now. --SSC
+
+
 
 

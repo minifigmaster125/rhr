@@ -1,8 +1,8 @@
-<div id = "awards">
-    <ul>
-        <li> Think </li>
-        <li> Connect </li>
-        <li> Finalist Alliance Captain </li>
-        <li> First Place Alliance Captain </li>
-    </ul>
-</div>
+<ul>
+    <%= form_for @year, url: {action: "create"} do |f| %>
+        <li><%= f.text_field :yearno %></li>
+        <li><%= f.text_area :robinfo, :size => "24x6" %></li>
+        <li><%= f.submit "Create" %></li>
+    <% end %>
+</ul>
+
