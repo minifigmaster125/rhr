@@ -112,18 +112,14 @@
 --December 20, 2012-- 
     
     Years#show page updated, added temporary images to trophy list, added filler text to "The Robot,"
-<<<<<<< HEAD
     and made pictures and contents slider. No dynamics yet. Looks pretty neat. --SSC
     Added Years model with a temp year#new metadata page, and setup psql db connection to Joraaver's
     so that back end could move along more steadily. All is ship shape now. --SSC
-
-
-
-=======
-    and made pictures and contents slider. No dynamics yet. Looks pretty neat.
-	--SSC
->>>>>>> 88603f8791e18205642c7dc59367a0b129ac9b04
-
 	FTC number is in header now. Contact page looks awesome. Validations
 	database, success message, all good. Error message still in progress
 	though. -JSC
+
+--December 21, 2012
+
+    Added Member and Award Model, linked them to Year model (through has_many and belongs_to) --SSC
+

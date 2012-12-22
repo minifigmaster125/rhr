@@ -1,5 +1,5 @@
 <ul>
-    <%= form_for @year, url: {action: "create"} do |f| %>
+        <%= form_for [@year, @award, @service], :html => {multipart => true }, url: {action: "create"} do |f| %>
         <li><%= f.text_field :yearno %></li>
         <li><%= f.text_area :robinfo, :size => "24x6" %></li>
         <li><%= f.submit "Create" %></li>
