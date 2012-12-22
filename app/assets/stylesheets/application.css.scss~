@@ -84,7 +84,7 @@ header {
 	#number {
 		font-size: 30px;
 		font-family: "TexGyreAdventor-Regular";
-		margin-left: 10%;
+		margin-left: 7%;
 		margin-top: 10px;
 	}
     nav{
@@ -148,9 +148,7 @@ footer {
 		font-family:"TexGyreAdventor-Regular";
 	}
 
-	#errorExplanation {
-		font-size: 150%;
-	}
+	
 }  
 
 
