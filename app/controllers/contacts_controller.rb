@@ -6,8 +6,9 @@ class ContactsController < ApplicationController
   def create
 	@contact = Contact.new(params[:contact])
 	if @contact.save
-	  flash[:success] = "Thanks for your input!"
-      redirect_to new_contact_path
+		ContactMailer.contact_us(@contact).deliver
+		flash[:success] = "Thanks for your input!"
+    	redirect_to new_contact_path
     else
       render "new"
     end

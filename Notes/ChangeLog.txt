@@ -127,3 +127,8 @@
 
     Added all dynamics to Years#show page, pretty sweet and easy. Also adjusted home page
     so that the years slider links to the show pages. --SSC
+
+--December 22, 2012
+
+	Added sponsors, adjust brief history link, created email
+	through ActionMailer for contact. -JSC

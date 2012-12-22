@@ -124,3 +124,6 @@
     Added Member and Award Model, linked them to Year model (through has_many and belongs_to) --SSC
 
 	Implemented Active Admin for background administration -JSC
+
+    Added all dynamics to Years#show page, pretty sweet and easy. Also adjusted home page
+    so that the years slider links to the show pages. --SSC
