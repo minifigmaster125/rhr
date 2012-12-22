@@ -12,4 +12,7 @@ class YearsController < ApplicationController
             render "new"
         end
     end 
+    def show
+        @year = Year.find(params[:id])
+    end
 end

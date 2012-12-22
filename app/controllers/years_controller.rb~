@@ -7,9 +7,13 @@ class YearsController < ApplicationController
         @year = Year.new(params[:year])
         if @year.save
             flash[:success] = "New Team Year created."
-            redirect_to new_years_path
+            redirect_to new_year_path
         else
             render "new"
         end
     end 
+    def show
+        @year = Year.find(params[:id])
+        redirect_to @year
+    end
 end
