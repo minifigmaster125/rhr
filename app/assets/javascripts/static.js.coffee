@@ -46,26 +46,26 @@ history = ->
     count = 1
     years = 3
     if count is 1
-        $(".secondary #changeYear #prev").hide("drop")
+        $(".secondary #changeYear #prev").effect("fade")
     $(".secondary #changeYear #next").click ->
 	
         if count < years
             count++
-            $(".secondary #changeYear #prev").show("drop")
+            $(".secondary #changeYear #prev").delay(1500).slideDown()
             $(".secondary #year" + --count).slideUp()
             $(".secondary #year" + ++count).delay(1000).slideDown()
-        if count is years
-            $(".secondary #changeYear #next").hide("drop")
+            if count is years
+                $(".secondary #changeYear #next").delay(1100).effect("fade")
 
     $(".secondary #changeYear #prev").click ->
 		        
         if count > 1
             count--
-            $(".secondary #changeYear #next").show("drop")
+            $(".secondary #changeYear #next").delay(1500).slideDown()
             $(".secondary #year" + ++count).slideUp()
             $(".secondary #year" + --count).delay(1000).slideDown()
-        if count is 1
-            $(".secondary #changeYear #prev").hide("drop")
+            if count is 1
+                $(".secondary #changeYear #prev").delay(1100).effect("fade")
 
 
 

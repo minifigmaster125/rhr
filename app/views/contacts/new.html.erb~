@@ -10,11 +10,12 @@
 		
 		<ul class = contact_fields>
 		<%= form_for @contact, :url => {:action => "create"} do |f| %>
+				<li><%= render "shared/error_messages", :target => @contact %></li>
 		<li><%= f.text_field :name, :size => 40, :placeholder => "Name", :id => "contactField" %></li>
 		<br />
 		<li><%= f.email_field :email, :size => 40, :placeholder => "Email Address", :id => "contactField" %></li>
 		<br />
-		<li><%= f.text_area :comment, :size => "37x3", :placeholder => "Comment", :id => "contactField" %></li>
+		<li><%= f.text_area :comment, :size => "40x7", :placeholder => "Comment", :id => "contactField" %></li>
 		<br />
 		<li><%= f.submit "Submit", :id => "submitButton" %></li>
 		<%end %>

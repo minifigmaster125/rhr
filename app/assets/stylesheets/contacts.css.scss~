@@ -30,7 +30,23 @@
 
 .secondary {
 	@include span-columns(4 omega,8);
+	margin-bottom: 10px;
 	.contact_fields {
+		#errorExplanation {
+			font-size: 120%;
+			font-family: "TexGyreAdventor-Bold";
+			float: center;
+			padding: 5px;
+			background-color: #FF737A;
+			width: 60%;
+			margin-left: 40px;
+			@include border-radius(10px);
+			li {
+				font-size: 100%;
+				padding: 2px;
+				font-family: "TexGyreAdventor-Regular";
+			}
+		}
 		li {
 			#contactField{
 				padding: 4px;
@@ -45,7 +61,7 @@
 			}
 			#submitButton{
 				@include sassy-button("shiny", 15px, 26px, #ffd71a, #ffbb66, black);
-				margin-left: 40%;
+				margin-left: 25%;
 			}
 
 
