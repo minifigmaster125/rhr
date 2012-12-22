@@ -1,4 +1,11 @@
 class Year < ActiveRecord::Base
     has_many :awards
-    #has_many: members
+    has_many :members
+<<<<<<< HEAD
+=======
+
+	def to_s
+		"#{yearno}"
+	end
+>>>>>>> 3aa95077b0d05212591434bcc60afdaa356d021a
 end

@@ -123,3 +123,4 @@
 
     Added Member and Award Model, linked them to Year model (through has_many and belongs_to) --SSC
 
+	Implemented Active Admin for background administration -JSC
