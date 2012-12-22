@@ -85,6 +85,7 @@ header {
 		font-size: 30px;
 		font-family: "TexGyreAdventor-Regular";
 		margin-left: 10%;
+		margin-top: 10px;
 	}
     nav{
         float: right;
@@ -122,14 +123,14 @@ footer {
     @include background-image(linear-gradient(#DD3434, #AB0101));
     @include border-top-radius(10px);
     box-shadow: 0px -5px 4px 0px #888888;
-
+	
     ul {
         padding: 0px 0px 0px 20px;
         li{
             padding-top: 7.5px;
             padding-bottom: 4px;
             padding-right: 10px;
-            @include inline-block;
+           	 @include inline-block;
             img{
                 height: 45px;
                 width: 45px;
@@ -137,8 +138,14 @@ footer {
             p{
                 font-size: 13px; 
             }
+			
         }
     }
+	#metadata{
+		float: right;
+		padding: 5px;
+		font-family:"TexGyreAdventor-Regular";
+	}
 }  
 
 
