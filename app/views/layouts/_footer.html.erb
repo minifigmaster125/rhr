@@ -1,9 +1,12 @@
 
 <div id='layout_footer'></div>	
-    <footer>  
-        <ul>
-            <li><%= image_tag "FTCicon.jpg" %> </li>
-            <li><p> Maintained by FIRST Tech Challenge Team 4422 </p>
-                <p> Last updated on: <%= Date.current() %> </p></li>
-        </ul>
-	</footer>
+<footer>  
+
+    <ul>
+        <li><%= image_tag "FTCicon.jpg" %> </li>
+        <li><p> Maintained by FIRST Tech Challenge Team 4422 </p>
+		<p> Last updated on: <%= Date.current() %> </p></li>
+	<%= link_to "Metadata", "/admin", :id => "metadata" %>	
+	</ul>
+	
+</footer>

@@ -1,6 +1,12 @@
 Rhr::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
   resources :years
   resources :contacts
+  resources :awards
+  resources :members
 
   match '/brief_history' => 'static#brief_history' 
   match '/contact' => 'contacts#new'
