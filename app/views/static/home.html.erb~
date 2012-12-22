@@ -35,12 +35,9 @@
             <li><a href="#" id="gallery-prev">previous</a>        
             <div id = "gallery-wrap">
                 <ul id = "gallery">
-                    <li><%= link_to years_show_path %><p> 2010</p></li>
-                    <li><%= link_to "" %><p> 2011</p></li>
-                    <li><%= link_to "" %><p> 2012</p></li>
-                    <li><%= link_to "" %><p> 2013</p></li>
-                    <li><%= link_to "" %><p> 2014</p></li>
-                    <li><%= link_to "" %><p> 2015</p></li>                
+                    <% Year.find_each do |s| %>
+                        <li><%#= link_to year_path(s) %><p><%= s.yearno %></p></li>
+                    <% end %>               
                 </ul>
             </div>
             <a href= "#" id="gallery-next">next</a>
