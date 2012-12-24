@@ -1,0 +1,12 @@
+class PostsController < ApplicationController
+<<<<<<< HEAD
+=======
+
+    def new
+    end
+
+    def index
+    end
+
+>>>>>>> devel
+end

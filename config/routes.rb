@@ -7,6 +7,7 @@ Rhr::Application.routes.draw do
   resources :contacts
   resources :awards
   resources :members
+  resources :posts
 
   match '/brief_history' => 'static#brief_history' 
   match '/contact' => 'contacts#new'
