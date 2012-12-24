@@ -1,6 +1,5 @@
 <header>
 		<p> <%= link_to "Red HoloRAMS", root_path %> </p>
-		<br />
 		<p id = "number">FTC #4422</p>
 		<nav>    
 			<ul>
