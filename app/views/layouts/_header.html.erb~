@@ -1,11 +1,11 @@
 <header>
 		<p> <%= link_to "Red HoloRAMS", root_path %> </p>
-		<br />
 		<p id = "number">FTC #4422</p>
 		<nav>    
 			<ul>
 				<li><%= link_to "Home", root_path %></li>
 				<li><%= link_to "A Brief History", brief_history_path %></li>
+				<li><%= link_to "Blogs", "#" %></li>
 				<li><%= link_to "Contact Us", new_contact_path %></li>
 			</ul>
 		</nav>
