@@ -1,0 +1,9 @@
+<%= @contact.name %>
+
+contacted us with this comment:
+
+<%= @contact.comment %>
+
+You can reply to this person through the following email address:
+
+<%= @contact.email %>

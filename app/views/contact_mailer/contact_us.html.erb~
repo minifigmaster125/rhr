@@ -1,0 +1,10 @@
+<b><%= @contact.name %></b>
+
+contacted us with this comment:
+
+<b><%= @contact.comment %></b>
+
+You can reply to this person through the following email address:
+
+<b><%= @contact.email %></b>
+

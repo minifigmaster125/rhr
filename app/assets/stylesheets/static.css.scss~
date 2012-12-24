@@ -168,8 +168,13 @@
 			margin-left:5%;
 		}
 	}
+<<<<<<< HEAD
     //@import "icons/*.png";
     //@include all-icons-sprites;
+=======
+    /*@import "icons/*.png";
+    /*@include all-icons-sprites;*/
+>>>>>>> 3ae4e4be783692db179ad80bb113dabd02b6e8e6
 	.tools {
 
 		#title{
