@@ -24,6 +24,9 @@ $(document).ready ->
     #recent news clickable
     $(".news").click ->
         window.location = "http://google.com" #$(this).find("a").attr("href")
+
+    $(".background-info").click ->
+        window.location = "http://google.com"
    	#Gallery    
     if jQuery("#gallery").length
             

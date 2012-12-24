@@ -62,10 +62,6 @@
 		}
 	}
 
-    .news :hover{
-            border: 2px solid;
-            border-radius: 10px;
-    }
 	
 	/*Brief History*/
 
@@ -168,13 +164,8 @@
 			margin-left:5%;
 		}
 	}
-<<<<<<< HEAD
     //@import "icons/*.png";
     //@include all-icons-sprites;
-=======
-    /*@import "icons/*.png";
-    /*@include all-icons-sprites;*/
->>>>>>> 3ae4e4be783692db179ad80bb113dabd02b6e8e6
 	.tools {
 
 		#title{
@@ -201,7 +192,7 @@
 
 		#text {
 			font-family:  "TexGyreAdventor-Regular";
-			font-size: 110%;
+			font-size: 125%;
 			border: solid 2px red;
 			padding: 3%;
 			@include border-radius(20px);

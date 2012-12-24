@@ -1,17 +1,11 @@
 class MembersController < ApplicationController
 
     def new
-        @member = Member.new
+        
     end
 
     def create
-        @member = Year.find(params[:year_id]
-        @member = @year.member.new(params[:member])
-        if  @member.save	
-            redirect to year_show_path
-        else
-            render "new"
-        end 
+         
     end
      
 end
