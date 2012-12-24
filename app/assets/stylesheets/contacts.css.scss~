@@ -25,6 +25,11 @@
 			font-family:"TexGyreAdventor-Regular";
 			font-size: 120%;
 		}
+        #arrow {
+            float: right;
+            margin-top: 10px;
+            margin-left: 300px;
+        }
 	}
 }
 
@@ -40,6 +45,7 @@
 			background-color: #FF737A;
 			width: 60%;
 			margin-left: 40px;
+			margin-bottom: 5px;
 			@include border-radius(10px);
 			li {
 				font-size: 100%;

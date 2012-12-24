@@ -8,9 +8,11 @@
 	<br />
 
 	<article>
-	<div class = "news">
+    <div class = "news">
+        <a href="http://google.com">yosh</a>
 		<div id = "news-header">
-			<h1>In Recent News . . .</h1>
+                <h1> In Recent News . . .</h1>
+
 		</div>
 
 		<div id = "title">
@@ -36,7 +38,7 @@
             <div id = "gallery-wrap">
                 <ul id = "gallery">
                     <% Year.find_each do |s| %>
-                        <li><%#= link_to year_path(s) %><p><%= s.yearno %></p></li>
+                            <li><%#= link_to year_path(s) %><p><%= link_to "#{s.yearno}", year_path(s) %></p></li>
                     <% end %>               
                 </ul>
             </div>
@@ -54,7 +56,7 @@
 
 		<div id = "description">
 			<p>Lorem ipsum lorem ipsum
-			Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+			Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
 		</div>
 	</div>
 	<br /><br />
@@ -64,10 +66,12 @@
 			<p>Tools:</p>
         </div>
         <ul id = "spriting" class = "horizontal">
-            <li><%= link_to "www.blender.org" %></li>
-            <li><%#= link_to "www.robotc.org", class: "icons-robotc" %></li>
-            <li><%#= link_to "www.blender.org", class: "icons-sketchup" %></li>
-            <li><%#= link_to "www.github.com", class: "icons-github" %></li>
+            <li><%= link_to image_tag("icons/blender.jpg"), "http://www.blender.org" %></li>
+            <li><%= link_to image_tag("icons/github.jpg"), "http://www.github.com" %></li>
+            <li><%= link_to image_tag("icons/sketchup.jpg"), "http://www.sketchup.com/" %></li>
+            <li><%= link_to image_tag("icons/robotc.jpg"), "http://www.robotc.net/" %></li>
+            <li><%= link_to image_tag("icons/tetrix.jpg"), "http://www.tetrixrobotics.com/" %></li>
+            <li><%= link_to image_tag("icons/nxt.png"), "http://us.mindstorms.lego.com/en-us/default.aspx" %></li>
         </ul>
 	</div>
 
