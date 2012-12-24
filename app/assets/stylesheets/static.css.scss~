@@ -40,8 +40,10 @@
 
 			
 	.news {
+        cursor: pointer;
 		margin-top: 10px;
 		margin-left: 7%;
+        
 		#news-header{
 			font-family: "Underwood Champion Regular";
 			font-size: 160%;
@@ -59,6 +61,11 @@
 			margin-left: 11%;
 		}
 	}
+
+    .news :hover{
+            border: 2px solid;
+            border-radius: 10px;
+    }
 	
 	/*Brief History*/
 
@@ -161,14 +168,27 @@
 			margin-left:5%;
 		}
 	}
+<<<<<<< HEAD
+    //@import "icons/*.png";
+    //@include all-icons-sprites;
+=======
     /*@import "icons/*.png";
     /*@include all-icons-sprites;*/
+>>>>>>> 3ae4e4be783692db179ad80bb113dabd02b6e8e6
 	.tools {
 
 		#title{
-			font-family: "Underwood Champion Regular";
-			font-size: 220%;
+			    font-family: "Underwood Champion Regular";
+			    font-size: 220%;
+                float: left;
+                margin-top: 10px;
 		}
+        #spriting{
+            li {
+                @include inline-block;
+                margin: 10px;
+            }
+        }
 	}
 	/*Brief History*/
 	#years {

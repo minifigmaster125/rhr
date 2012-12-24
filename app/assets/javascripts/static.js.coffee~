@@ -51,21 +51,21 @@ history = ->
 	
         if count < years
             count++
-            $(".secondary #changeYear #prev").delay(1300).slideDown()
+            $(".secondary #changeYear #prev").delay(1500).slideDown()
             $(".secondary #year" + --count).slideUp()
             $(".secondary #year" + ++count).delay(1000).slideDown()
             if count is years
-                $(".secondary #changeYear #next").delay(1300).effect("fade")
+                $(".secondary #changeYear #next").delay(1100).effect("fade")
 
     $(".secondary #changeYear #prev").click ->
 		        
         if count > 1
             count--
-            $(".secondary #changeYear #next").delay(1300).slideDown()
+            $(".secondary #changeYear #next").delay(1500).slideDown()
             $(".secondary #year" + ++count).slideUp()
             $(".secondary #year" + --count).delay(1000).slideDown()
             if count is 1
-                $(".secondary #changeYear #prev").delay(1300).effect("fade")
+                $(".secondary #changeYear #prev").delay(1100).effect("fade")
 
 
 
@@ -87,5 +87,9 @@ slider = ->
 			count +=1;
 		
 	), 6500
+
+#recent news clickable
+$(".news").click ->
+  window.location = "http://google.com" #$(this).find("a").attr("href")
 
 

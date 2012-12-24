@@ -19,10 +19,9 @@
 <div id = "members">
     <p class = "ATitle">  Members </p>   
     <ul class = "info">
-        <li> Think </li>
-        <li> Connect </li>
-        <li> Finalist Alliance Captain </li>
-        <li> First Place Alliance Captain </li>
+        <% Member.find_all_by_year_id(@year.id).each do |s| %>
+            <li><%= s.name %></li>
+        <%end%>
     </ul>
 </div>
 <div id = "robinfo">

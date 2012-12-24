@@ -90,6 +90,6 @@
     p { 
         margin: 10px;
         font-family: "TexGyreAdventor-Regular";
-        font-size: 120%
+        font-size: 120%;
     }
 }
