@@ -1,8 +1,9 @@
 <div class = "main">
-    <% Post.find_all.each do |s| %>
+    <% Post.all.each do |s| %>
     <h1><%= s.title %></h1>
-    <%= s.date %>
-    <%= s.entry %>
+    <h2><%= s.date %></h2>
+    <h3><%= s.entry %></h3>
+    <h1> ----------------------------------------------------</h1>
     <% end %>
 </div>
 
