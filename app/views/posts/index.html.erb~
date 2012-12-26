@@ -1,11 +1,8 @@
-<div class = "main">
-	<div class = "blog">
+<div class = "blog">
     <% Post.all.each do |s| %>
     <h1><%= s.title %></h1>
 	<h2>Posted at <%= "#{s.date}" %></h2>
     <h3><%= s.entry %></h3>
     <h1>----------------------------------------------------</h1>
 	<% end %>
-	</div>
 </div>
-

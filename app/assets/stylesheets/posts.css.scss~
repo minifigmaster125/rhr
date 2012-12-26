@@ -1,3 +1,37 @@
+<<<<<<< HEAD
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "compass";
+@import "sassy-buttons";
+@import "susy";
+@import "compass/reset";
+@import "compass/layout/sticky-footer";
+@import "compass/typography/links/link-colors";
+@import "compass/css3";
+
+#bloggy{
+    @include span-columns(6,8);
+    margin: 10px;
+    margin-left: 20px;
+    h1 {
+        font-size: 180%;
+        font-family: "Underwood Champion Regular";
+        margin: 10px;
+    }
+    h2 {
+        font-size: 100%;
+        font-family: "TexGyreAdventor-Regular";
+        float:right;
+    }
+    h3 {
+        font-size: 100%;
+        font-family:  "TexGyreAdventor-Regular";
+    }
+}
+    
+=======
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
@@ -21,7 +55,7 @@
     }
     h2 {
         font-size: 100%;
-		font-family: "TexGyreAdventor-Bold"
+		font-family: "TexGyreAdventor-Bold";
 		margin-bottom: 5px;
 	}
 	h3 {
@@ -31,3 +65,4 @@
         
 }
     
+>>>>>>> ac5164fa6a6d4caede687a09f0dbae9374033a43
