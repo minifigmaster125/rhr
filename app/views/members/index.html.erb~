@@ -1,7 +1,6 @@
 <div class = "main">
-	<ul>
 		<% Member.all.each do |m| %>
-			<li><%= m.name %></li>
-			<li><%= m.bio %></li>
+			<%= m.name %>
+			<%= m.bio %>
 		<% end %>
 </div>
