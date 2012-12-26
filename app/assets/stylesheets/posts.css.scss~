@@ -10,17 +10,24 @@
 @import "compass/typography/links/link-colors";
 @import "compass/css3";
 
-.main{
+.blog{
     @include span-columns(6,8);
     margin: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
     h1 {
         font-size: 180%;
-        font-family: "TexGyreAdventor-Bold";
-        margin: 10px;
+        font-family: "Underwood Champion Regular";
+		margin-bottom: 10px;
     }
     h2 {
         font-size: 100%;
+		font-family: "TexGyreAdventor-Bold"
+		margin-bottom: 5px;
+	}
+	h3 {
+        font-size: 100%;
+		font-family: "TexGyreAdventor-Regular"
+	}
         
 }
     
