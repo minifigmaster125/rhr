@@ -20,7 +20,7 @@
     <p class = "ATitle">  Members </p>   
     <ul class = "info">
         <% Member.find_all_by_year_id(@year.id).each do |s| %>
-            <li><%= s.name %></li>
+				<li><%= link_to s.name, members_path + "#" + s.name.to_s %></li>
         <%end%>
     </ul>
 </div>

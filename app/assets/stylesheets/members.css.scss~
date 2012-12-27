@@ -16,7 +16,7 @@
 	#each_member{
 		li{
 			.details{
-				margin-bottom: 80px;
+				margin-bottom: 50px;
 				li{
 					margin-top: 20px;
 					margin-left: 20px;

@@ -3,7 +3,7 @@
     <p class = "ATitle">  Awards </p>   
     <ul class = "info">
         <% Award.find_all_by_year_id(@year.id).each do |s| %>
-            <li><div class="trophies"> <%= image_tag("icons/robotc.jpg") %> </div><p class="name"> <%= s.name %></p> </li>
+            <li><div class="trophies"> <%= image_tag("award.png") %> </div><p class="name"> <%= s.name %></p> </li>
         <%end%>  
     </ul>
 </div>
@@ -20,7 +20,7 @@
     <p class = "ATitle">  Members </p>   
     <ul class = "info">
         <% Member.find_all_by_year_id(@year.id).each do |s| %>
-            <li><%= s.name %></li>
+				<li><%= link_to s.name, members_path(:anchor=>s.name) %></li>
         <%end%>
     </ul>
 </div>

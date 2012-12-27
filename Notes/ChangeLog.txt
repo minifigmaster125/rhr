@@ -132,3 +132,8 @@
 
 	Added sponsors, adjust brief history link, created email
 	through ActionMailer for contact. -JSC
+
+--December 27, 2012
+
+	Created layout for members. Have to add image for each
+	member now -JSC.			
