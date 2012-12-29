@@ -3,6 +3,19 @@
     <h1><%= s.title %></h1>
 	<h2>Posted at <%= "#{s.date}" %></h2>
     <h3><%= s.entry %></h3>
-    <h1>----------------------------------------------------</h1>
+    <h1>---------------------</h1>
 	<% end %>
 </div>
+<aside>
+    <div id = "Archives">
+        <p> Archives <p>
+    </div>
+    <ul id = "archlist">
+        <% Year.all.each do |y| %>
+        <li> <%= "#{y.yearno}" %></li>
+        <%end %>
+    </ul>
+</aside>
+
+
+
