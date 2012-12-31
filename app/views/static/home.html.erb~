@@ -47,18 +47,17 @@
     </div>
 	<br /> <br /><br /><br /><br /><br /><br /> 
 	<div class = "background-info">
-		<a href="http://google.com"></a>
-		<div id = "question">
-				<p>Who Are We?<p>
-		</div>
 		
+		<div id = "question">
+				<p><%= link_to "Who are we?",members_path, :class => "backround-style" %><p>
+		</div>
 		<div id = "statement">
-			<p>- A Robotics Team -</p>
+				<p><%= link_to "- A Robotics Team -",members_path, :class=> "background-style"%></p>
 		</div>
 
 		<div id = "description">
-			<p>Lorem ipsum lorem ipsum
-			Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+			<p><%= link_to "Lorem ipsum lorem ipsum
+			Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum",members_path, :class=> "background-style" %></p>
 		</div>
 	</div>
 	<br /><br />

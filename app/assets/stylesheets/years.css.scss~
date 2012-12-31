@@ -22,7 +22,7 @@
         font-family: "Underwood Champion Regular";
         font-size: 100%;
         font-weight: bold;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 10px;
     }
 }
@@ -70,8 +70,21 @@
     .info{
         margin-top: 10px;
         list-style-type: disc;
-        li { margin-top: 10px;}
-    }        
+		
+		
+        li { 
+			margin-top: 10px;
+			text-decoration: none;
+			font-family: "Texgyreadventor-Regular";
+		}
+		li :visited{
+			color: black;
+		}
+		li :hover{
+			font-family: "TexGyreAdventor-Bold";
+		}
+    }
+	
 }
 #robinfo{
     clear: both;
