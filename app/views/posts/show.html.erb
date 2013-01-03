@@ -1,14 +1,10 @@
-<%= content_tag "div", id: "blog", data: {posts: Post.all} do %>
-    <% Post.all.each do |s| %>
-        <div class = "<%= s.date.strftime("%Y") %>" %>
-        <h1><%= s.title %></h1>
-	    <h2>Posted at <%= "#{s.date}" %></h2>
-        <h3><%= s.entry %></h3>
+<div id = "blog">
+        <h1><%= @post.title %></h1>
+	    <h2>Posted at <%= "#{@post.date}" %></h2>
+        <h3><%= @post.entry %></h3>
         <h1>---------------------</h1>
-        </div>
+</div>
         
-	<% end %>
-<%end%>
 <aside>
     <div id = "Archives">
         <p> Archives <p>
@@ -19,6 +15,3 @@
         <%end %>
     </ul>
 </aside>
-
-
-

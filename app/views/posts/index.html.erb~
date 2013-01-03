@@ -1,19 +1,24 @@
-<div class = "blog">
+<%= content_tag "div", id: "blog", data: {posts: Post.all} do %>
     <% Post.all.each do |s| %>
-    <h1><%= s.title %></h1>
-	<h2>Posted at <%= "#{s.date}" %></h2>
-    <h3><%= s.entry %></h3>
-    <h1>---------------------</h1>
+        <div class = "<%= s.date.strftime("%Y") %>" %>
+        <h1><%= s.title %></h1>
+	    <h2>Posted at <%= "#{s.date}" %></h2>
+        <h3><%= s.entry %></h3>
+        <h1>---------------------</h1>
+        </div>
+        
 	<% end %>
-</div>
+<%end%>
 <aside>
     <div id = "Archives">
         <p> Archives <p>
     </div>
-    <ul id = "archlist">
+    <ul class = "archlist">
         <% Year.all.each do |y| %>
-        <li> <%= "#{y.yearno}" %></li>
+                <li> <div class = "archlink"> <%"#{y.yearno}" %></div></li>
+        <%end %>
     </ul>
+</aside>
 
 
 

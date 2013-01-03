@@ -55,10 +55,25 @@
 			font-size: 130%;
 			padding-top: 2%;
 			padding-bottom: 2%;
+            #posttitle { 
+                text-decoration: none;
+            }
+            #posttitle:visited {color: black;}   
 		}
 		#description {
 			font-family: "TexGyreAdventor-Regular";
 			margin-left: 11%;
+            height: 200px;
+            overflow: auto;
+            line-height: 150%;
+            padding-left: 50px;
+            border-left: solid red 3px;
+            #lastpost { 
+                text-decoration: none;
+                @include background-image(linear-gradient(top, (#AE1818), #000000));
+                
+            }
+            #lastpost:visited {color: black;}    
 		}
 	}
 
@@ -148,6 +163,7 @@
     }
 
 	.background-info{
+			cursor: pointer;
 		#question {
 			font-family: "Underwood Champion Regular";
 			font-size: 220%;

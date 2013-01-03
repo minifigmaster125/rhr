@@ -21,9 +21,6 @@ $(document).ready ->
         $(".secondary #changeYear #next").css "background-color","#ffcccc"
         $(".secondary #changeYear #next").css "color","black"
 
-    #recent news clickable
-    $(".news").click ->
-        window.location = "http://google.com" #$(this).find("a").attr("href")
 
     $(".background-info").click ->
         window.location = "http://google.com"

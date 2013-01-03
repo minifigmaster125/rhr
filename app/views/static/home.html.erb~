@@ -7,7 +7,8 @@
 	</div>
 	<br />
 
-	<article>
+    <article>
+    <% @post = Post.last %>
     <div class = "news">
         <a href="http://google.com"></a>
 		<div id = "news-header">
@@ -16,11 +17,11 @@
 		</div>
 
 		<div id = "title">
-			<p>Lorem Ipsum Dolor</p>
+            <%= link_to @post.title, @post, :id => "posttitle" %>
 		</div>
 
-		<div id = "description">
-			<p>lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor<p>
+        <div id = "description">
+            <%= link_to @post.entry, @post, :id => "lastpost" %>
 		</div>
 
 	</div>
@@ -51,7 +52,6 @@
 		<div id = "question">
 				<p>Who Are We?<p>
 		</div>
-		
 		<div id = "statement">
 			<p>- A Robotics Team -</p>
 		</div>

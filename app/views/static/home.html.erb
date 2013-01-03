@@ -7,20 +7,20 @@
 	</div>
 	<br />
 
-	<article>
+    <article>
+    <% @post = Post.last %>
     <div class = "news">
-        <a href="http://google.com"></a>
 		<div id = "news-header">
                 <h1> In Recent News . . .</h1>
 
 		</div>
 
 		<div id = "title">
-			<p>Lorem Ipsum Dolor</p>
+            <%= link_to @post.title, @post, :id => "posttitle" %>
 		</div>
 
-		<div id = "description">
-			<p>lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor<p>
+        <div id = "description">
+            <%= link_to @post.entry, @post, :id => "lastpost" %>
 		</div>
 
 	</div>

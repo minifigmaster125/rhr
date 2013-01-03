@@ -1,6 +1,4 @@
 class PostsController < ApplicationController
-<<<<<<< HEAD
-=======
 
     def new
     end
@@ -8,5 +6,6 @@ class PostsController < ApplicationController
     def index
     end
 
->>>>>>> devel
+    def show
+    end
 end
