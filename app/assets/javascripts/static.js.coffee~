@@ -21,12 +21,12 @@ $(document).ready ->
         $(".secondary #changeYear #next").css "background-color","#ffcccc"
         $(".secondary #changeYear #next").css "color","black"
 
-    #recent news clickable
-    $(".news").click ->
-        window.location = "http://google.com" #$(this).find("a").attr("href")
+<<<<<<< HEAD
 
     $(".background-info").click ->
         window.location = "http://google.com"
+=======
+>>>>>>> 05a8282bfc2bfe6e08dd6ba2d5335bc888a7a226
    	#Gallery    
     if jQuery("#gallery").length
             

@@ -166,6 +166,12 @@
 		#question {
 			font-family: "Underwood Champion Regular";
 			font-size: 220%;
+			.background-style {
+				text-decoration: none;
+			}
+		}
+		#question :visited{
+			color:black;
 		}
 		#statement{
 			font-family: "TexGyreAdventor-Bold";
@@ -173,10 +179,23 @@
 			padding-bottom: 2%;
 			font-size:150%;
 			margin-left:5%;
+			.background-style {
+				text-decoration: none;
+			}
+		}
+		#statement :visited{
+			color:black;
 		}
 		#description{
 			font-family: "TexGyreAdventor-Regular";
 			margin-left:5%;
+			color: black;
+			.background-style {
+				text-decoration: none;
+			}
+		}
+		#description :visited{
+			color:black;
 		}
 	}
     //@import "icons/*.png";

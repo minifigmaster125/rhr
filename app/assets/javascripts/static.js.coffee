@@ -21,9 +21,6 @@ $(document).ready ->
         $(".secondary #changeYear #next").css "background-color","#ffcccc"
         $(".secondary #changeYear #next").css "color","black"
 
-
-    $(".background-info").click ->
-        window.location = "http://google.com"
    	#Gallery    
     if jQuery("#gallery").length
             

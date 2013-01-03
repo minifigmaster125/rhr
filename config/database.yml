@@ -1,3 +1,4 @@
+
 # SQLite version 3.x
 #   gem install sqlite3
 #
@@ -26,3 +27,4 @@ production:
   database: db/production.pg
   pool: 5
   timeout: 5000
+

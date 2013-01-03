@@ -136,3 +136,7 @@
 --December 27, 2012
 
 	Created layout for members. All good. -JSC
+
+--December 31, 2012
+
+	Created link from "Who are we" to members index" -JSC

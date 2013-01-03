@@ -70,8 +70,24 @@
     .info{
         margin-top: 10px;
         list-style-type: disc;
-        li { margin-top: 10px;}
-    }        
+		
+		
+        li { 
+			margin-top: 10px;
+			
+			font-family: "Texgyreadventor-Regular";
+			#name{
+				text-decoration: none;
+			}
+		}
+		li :visited{
+			color: black;
+		}
+		li :hover{
+			font-family: "TexGyreAdventor-Bold";
+		}
+    }
+	
 }
 #robinfo{
     clear: both;
