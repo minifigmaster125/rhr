@@ -10,7 +10,6 @@
     <article>
     <% @post = Post.last %>
     <div class = "news">
-        <a href="http://google.com"></a>
 		<div id = "news-header">
                 <h1> In Recent News . . .</h1>
 
@@ -35,22 +34,24 @@
 			<p>Year</p>
         </div>
         <ul id = "slider">
-            <li><a href="#" id="gallery-prev">previous</a>        
+                <li><a href="#" id="gallery-prev"><%= image_tag("year_arrowL.png")%></a>       
             <div id = "gallery-wrap">
                 <ul id = "gallery">
                     <% Year.find_each do |s| %>
-                            <li><%#= link_to year_path(s) %><p><%= link_to "#{s.yearno}", year_path(s) %></p></li>
+                            <li><p><%= link_to "#{s.yearno}", year_path(s) %></p>
+                            <%=image_tag("Robot.jpg"), year_path(s)%></li>
+                            
                     <% end %>               
                 </ul>
             </div>
-            <a href= "#" id="gallery-next">next</a>
+            <a href= "#" id="gallery-next"><%= image_tag("year_arrowR.png")%></a>
         </ul>
     </div>
 	<br /> <br /><br /><br /><br /><br /><br /> 
 	<div class = "background-info">
 		
 		<div id = "question">
-				<p><%= link_to "Who are we?",members_path, :class => "backround-style" %><p>
+				<p><%= link_to "Who are we?",members_path, :class => "background-style" %><p>
 		</div>
 		<div id = "statement">
 				<p><%= link_to "- A Robotics Team -",members_path, :class=> "background-style"%></p>

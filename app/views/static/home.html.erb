@@ -34,15 +34,17 @@
 			<p>Year</p>
         </div>
         <ul id = "slider">
-            <li><a href="#" id="gallery-prev">previous</a>        
+                <li><a href="#" id="gallery-prev"><%= image_tag("year_arrowL.png")%></a>       
             <div id = "gallery-wrap">
                 <ul id = "gallery">
                     <% Year.find_each do |s| %>
-                            <li><%#= link_to year_path(s) %><p><%= link_to "#{s.yearno}", year_path(s) %></p></li>
+                            <li><p><%= link_to "#{s.yearno}", year_path(s) %></p>
+                            <%=image_tag("Robot.jpg")%></li>
+                            
                     <% end %>               
                 </ul>
             </div>
-            <a href= "#" id="gallery-next">next</a>
+            <a href= "#" id="gallery-next"><%= image_tag("year_arrowR.png")%></a>
         </ul>
     </div>
 	<br /> <br /><br /><br /><br /><br /><br /> 

@@ -70,7 +70,6 @@
             border-left: solid red 3px;
             #lastpost { 
                 text-decoration: none;
-                @include background-image(linear-gradient(top, (#AE1818), #000000));
                 
             }
             #lastpost:visited {color: black;}    
@@ -141,9 +140,15 @@
                             float: left;
                             margin: 10px 10px 20px 10px;
 							font-family: "TexGyreAdventor-Regular";
+                            
                             p { 
                                 margin-top: 65px;
                                 margin-left: 12px;
+                                a {
+                                    text-decoration: none;
+                                }
+                                a.visited {color: black}
+                                font-weight: bold;
                             }
                         }
                     }
@@ -172,7 +177,7 @@
 			}
 		}
 		#question :visited{
-				color:black;
+			color:black;
 		}
 		#statement{
 			font-family: "TexGyreAdventor-Bold";

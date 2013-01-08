@@ -11,7 +11,7 @@ development:
   username: ssc
   password: ssc321
   port: 5432
-  host: 192.168.1.139
+  host: 169.232.237.121
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
