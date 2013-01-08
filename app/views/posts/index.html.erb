@@ -15,7 +15,7 @@
     </div>
     <ul class = "archlist">
         <% Year.all.each do |y| %>
-                <li> <div class = "archlink"> <%= "#{y.yearno}" %></div></li>
+				<li class = "yearItem" id = "<%=y.yearno%>"><div class = "archlink"> <%= "#{y.yearno}" %></div></li>
         <%end %>
     </ul>
 </aside>
