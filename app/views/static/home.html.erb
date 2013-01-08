@@ -2,8 +2,9 @@
 <div class = "main">
 	<div class = "slider">
 		<%= image_tag("LoadingUnloadingProcess.png", :id => "image1") %>
-		<%= image_tag("rails.png", :id => "image2")%>
-		<%= image_tag("FTCicon.jpg", :id => "image3")%>
+        <%= image_tag("2012 2013 Robot.jpg", :id => "image2")%>
+        <%= image_tag("2011 2012 Robot.jpg", :id => "image3")%>
+		<%= image_tag("FTCicon.jpg", :id => "image4")%>
 	</div>
 	<br />
 
@@ -38,7 +39,7 @@
             <div id = "gallery-wrap">
                 <ul id = "gallery">
                     <% Year.find_each do |s| %>
-                            <li><%=link_to image_tag("2012-2013 Robot.jpg"), year_path(s), :id => "robimg" %><p><%= link_to "#{s.yearno}", year_path(s) %></p>
+                            <li><%=link_to image_tag("#{s.yearno}-#{s.yearno+1} Robot.jpg"), year_path(s), :id => "robimg" %><p><%= link_to "#{s.yearno}", year_path(s) %></p>
                             </li>
                             
                     <% end %>               
