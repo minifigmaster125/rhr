@@ -133,16 +133,15 @@
                         top: 0;
                         float: left;
                         li{ 
-                            @include display-box;
-                            height: 60px;
-                            border: solid 2px;    
+                            height: 60px; 
                             width: 60px;
                             float: left;
                             margin: 10px 10px 20px 10px;
 							font-family: "TexGyreAdventor-Regular";
-                            
+                            a img{
+                                border: solid black 2px;
+                            }
                             p { 
-                                margin-top: 65px;
                                 margin-left: 12px;
                                 a {
                                     text-decoration: none;

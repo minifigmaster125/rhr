@@ -21,19 +21,13 @@ $(document).ready ->
         $(".secondary #changeYear #next").css "background-color","#ffcccc"
         $(".secondary #changeYear #next").css "color","black"
 
-<<<<<<< HEAD
-
-    $(".background-info").click ->
-        window.location = "http://google.com"
-=======
->>>>>>> 05a8282bfc2bfe6e08dd6ba2d5335bc888a7a226
    	#Gallery    
     if jQuery("#gallery").length
             
             #Declare Variables
             totalImages = jQuery("#gallery > li").length
             imageWidth = jQuery("#gallery > li:first").outerWidth(true)
-            totalWidth = imageWidth * totalImages
+            totalWidth = (imageWidth+4) * totalImages
             visibleImages = Math.round(jQuery("#gallery-wrap").width() / imageWidth)
             visibleWidth = visibleImages * imageWidth
             stopPosition = (visibleWidth - totalWidth)

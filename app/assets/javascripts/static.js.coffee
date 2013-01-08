@@ -26,7 +26,7 @@ $(document).ready ->
             
             #Declare Variables
             totalImages = jQuery("#gallery > li").length
-            imageWidth = jQuery("#gallery > li:first").outerWidth(true)
+            imageWidth = jQuery("#gallery > li:first").outerWidth(true) + 4
             totalWidth = imageWidth * totalImages
             visibleImages = Math.round(jQuery("#gallery-wrap").width() / imageWidth)
             visibleWidth = visibleImages * imageWidth
