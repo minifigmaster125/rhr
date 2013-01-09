@@ -10,7 +10,13 @@
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
+<<<<<<< HEAD
 /config/database.yml
+=======
+
+
+
+>>>>>>> 39da8802a32e4a476d43e8bc18c2bdcc1ddd4f74
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
@@ -29,4 +35,6 @@ capybara-*.html
 /spec/tmp/*
 **.orig
 rerun.txt
+/config/database.yml
 pickle-email-*.html
+
