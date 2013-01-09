@@ -8,8 +8,9 @@ development:
   adapter: postgresql
   pool: 5
   database: rhr_dev
-  username: postgres
-  password: jsc321
+  username: ssc
+  password: ssc321
+  host: 169.232.220.78
 
 
 # Warning: The database defined as "test" will be erased and
