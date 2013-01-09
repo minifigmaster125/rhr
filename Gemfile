@@ -10,6 +10,7 @@ gem 'thin', '~> 1.5.0'
 gem 'pg'
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
+gem "heroku", "~> 2.33.5"
 
 # Gems used only for assets and not required
 # in production environments by default.
