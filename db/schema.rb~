@@ -100,7 +100,7 @@ end
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121228013925) do
+ActiveRecord::Schema.define(:version => 20130110012458) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -153,9 +153,10 @@ ActiveRecord::Schema.define(:version => 20121228013925) do
   create_table "members", :force => true do |t|
     t.string   "name"
     t.text     "bio"
-    t.integer  "year_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "year"
+    t.integer  "duration"
   end
 
   create_table "posts", :force => true do |t|
@@ -174,4 +175,4 @@ ActiveRecord::Schema.define(:version => 20121228013925) do
   end
 
 end
->>>>>>> db28df9df2902c86c227d4c9d9b18a3012235e11
+>>>>>>> 76e8308108cc4b4344c1c7e291f3738db9b2811f

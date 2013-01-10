@@ -1,14 +1,13 @@
 ActiveAdmin.register Member do
-	form do |f|
+    form do |f|
       f.inputs "Details" do
         f.input :name
         f.input :bio
- 
-
-		
+        f.input :year_range, { :as => :range, :in => 1 .. 4000, :step => 1 }
       end
-      
+
       f.actions
-	 end
+    end
+
   
 end

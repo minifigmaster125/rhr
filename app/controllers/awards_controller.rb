@@ -1,6 +1,6 @@
 class AwardsController < ApplicationController
 
-    def new
+    def new 
     end
 
     def create

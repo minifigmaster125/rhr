@@ -74,8 +74,11 @@
 		
         li { 
 			margin-top: 10px;
-			text-decoration: none;
+			
 			font-family: "Texgyreadventor-Regular";
+			#name{
+				text-decoration: none;
+			}
 		}
 		li :visited{
 			color: black;
