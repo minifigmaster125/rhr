@@ -19,8 +19,10 @@
 <div id = "members">
     <p class = "ATitle">  Members </p>   
     <ul class = "info">
-        <% Member.find_all_by_year_id(@year.id).each do |s| %>
-				<li><%= link_to s.name, members_path + "#" + s.name.to_s, :id => "name" 	%></li>
+        <% Member.all.each do |s| %>
+                <% if @year.yearno >= s.year && @year.yearno < (s.year + s.duration) %>
+                        <li><%= link_to s.name, members_path + "#" + s.name.to_s, :id => "name"	%></li>
+                <% end %>
         <%end%>
     </ul>
 </div>

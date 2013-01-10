@@ -11,7 +11,7 @@
 @import "compass/css3";
 
 .members{
-	margin-left: 10px;
+	margin-left: 5px;
 	list-style-type: circle;
 	#each_member{
 		li{
@@ -30,6 +30,7 @@
 					font-size: 150%;
 					width: 230px;
 				}
+                a:link {color: #FFFFFF;}
 				#pic {
 					width: 250px;
 					border: solid 2px;
