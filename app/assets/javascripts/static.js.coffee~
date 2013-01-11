@@ -26,8 +26,8 @@ $(document).ready ->
             
             #Declare Variables
             totalImages = jQuery("#gallery > li").length
-            imageWidth = jQuery("#gallery > li:first").outerWidth(true)
-            totalWidth = (imageWidth+4) * totalImages
+            imageWidth = jQuery("#gallery > li:first").outerWidth(true) + 4
+            totalWidth = imageWidth * totalImages
             visibleImages = Math.round(jQuery("#gallery-wrap").width() / imageWidth)
             visibleWidth = visibleImages * imageWidth
             stopPosition = (visibleWidth - totalWidth)
@@ -44,7 +44,7 @@ $(document).ready ->
 history = ->
 
     count = 1
-    years = 3
+    years = 1
     if count is 1
         $(".secondary #changeYear #prev").effect("fade")
     $(".secondary #changeYear #next").click ->
