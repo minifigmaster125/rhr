@@ -10,7 +10,7 @@ development:
   database: rhr_dev
   username: ssc
   password: ssc321
-  host: 169.232.237.58
+  host: 169.232.237.167
 
 
 # Warning: The database defined as "test" will be erased and
