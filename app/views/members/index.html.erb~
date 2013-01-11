@@ -5,7 +5,7 @@
 				<% Member.all.each do |m| %>
 					<li><a name = "<%= m.name %>"> </a></li>
 					<li id = "name"><%= m.name %></li>
-					<li id = "pic"><%= image_tag("assets/images/" + m.name.to_s) %></li>
+					<li id = "pic"><%= image_tag(m.name + ".jpg") %></li>
 					<li id = "bio"><%= m.bio%></li>
 					<li id = "year">Joined in the year of <%= Year.find_by_id(m.year_id) %></li>
 					<br />

@@ -177,6 +177,9 @@
 				text-decoration: none;
 			}
 		}
+	    #question :link{
+			color:black;
+		}
 		#question :visited{
 			color:black;
 		}
@@ -191,6 +194,9 @@
 				text-decoration: none;
 			}
 		}
+        #statement :link{
+			color:black;
+		}
 		#statement :visited{
 			color:black;
 		}
@@ -201,6 +207,9 @@
 			.background-style {
 				text-decoration: none;
 			}
+		}
+        #description :link{
+			color:black;
 		}
 		#description :visited{
 			color:black;

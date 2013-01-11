@@ -145,6 +145,7 @@
                             p { 
                                 margin-left: 12px;
                                 a {
+									color: black;
                                     text-decoration: none;
                                 }
                                 a :visited {color: black}
@@ -175,6 +176,9 @@
 			.background-style {
 				text-decoration: none;
 			}
+		}
+	    #question :link{
+			color:black;
 		}
 		#question :visited{
 			color:black;
