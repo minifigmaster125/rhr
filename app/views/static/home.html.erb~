@@ -3,7 +3,7 @@
 	<div class = "slider">
 		<%= image_tag("LoadingUnloadingProcess.png", :id => "image1") %>
         <%= image_tag("SequoiaTeam20122013.png", :id => "image2")%>
-		<%= image_tag("sliderImage2.png", :id => "image3")%>
+		<%= image_tag("sliderImage3.png", :id => "image3")%>
 		<%= image_tag("sliderImage4.png", :id => "image4")%>
 	</div>
 	<br />
