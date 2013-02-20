@@ -10,9 +10,9 @@
 <section id = "main">
 <p id = "YTitle"><%= "#{@year.yearno}-#{@year.yearno+1}" %> </p>
     <figure>
-        <%= image_tag("LoadingUnloadingProcess.png", :id => "image1") %>
-		<%= image_tag("rails.png", :id => "image2")%>
-		<%= image_tag("FTCicon.jpg", :id => "image3")%>
+		<%= image_tag("#{@year.yearno}-#{@year.yearno+1} Robot2.png", :id => "image1") %>
+		<!--%= image_tag("rails.png", :id => "image2")%>
+		<!%= image_tag("FTCicon.jpg", :id => "image3")%>
         <!--figcaption> Rammy H. Ramster </figcaption-->
     </figure>
 </section>
@@ -21,7 +21,7 @@
     <ul class = "info">
         <% Member.all.each do |s| %>
                 <% if @year.yearno >= s.year && @year.yearno < (s.year + s.duration) %>
-                        <li><%= link_to s.name, members_path + "#" + s.name.to_s, :id => "name", :style=> ':color => #FFFFFF;'	%></li>
+                        <li><%= link_to s.name, members_path + "#" + s.name.to_s, :id => "name"	%></li>
                 <% end %>
         <%end%>
     </ul>
