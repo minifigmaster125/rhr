@@ -51,10 +51,8 @@ aside{
     }
     }
     .archlist {
-        @include prefix(1);
-        @include span-columns(1, 8);
-        @include suffix(1);
-        li .archlink{
+
+        li {
             text-align: center;
             margin: 10px;
             font-family: "TexGyreAdventor-Regular";

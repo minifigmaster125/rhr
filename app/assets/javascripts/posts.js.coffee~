@@ -7,7 +7,7 @@ $(document).ready ->
     do archives
     
 archives = ->
-    $("aside .archlist li").click ->
+    $("aside .archlist li .archlink").click ->
         alert  $(this).parent("li").attr("id")
         #<% Post.all.each do |s| %>   
         #    if <% s.date.strftime("%Y") %> != $("aside #archlist #archlink").text() 

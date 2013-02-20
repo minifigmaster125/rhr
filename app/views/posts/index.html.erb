@@ -14,8 +14,10 @@
         <p> Archives <p>
     </div>
     <ul class = "archlist">
-        <% Year.all.each do |y| %>
-				<li class = "yearItem" id = "<%=y.yearno%>"><div class = "archlink"> <%= "#{y.yearno}" %></div></li>
+			<% Year.all.each do |y| %>
+					<% if y.yearno != 2010 && y.yearno != 2011 %>	
+							<li class = "yearItem" id = "<%=y.yearno%>"><div class = "archlink"> <%= "#{y.yearno}-#{y.yearno+1}" %></div></li>
+					<%end%>
         <%end %>
     </ul>
 </aside>
